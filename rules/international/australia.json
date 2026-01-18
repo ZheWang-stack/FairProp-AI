@@ -1,0 +1,62 @@
+[
+    {
+        "id": "AU-FEDERAL-001",
+        "category": "Race (Australia)",
+        "trigger_words": [
+            "australian only",
+            "no migrants",
+            "anglo-saxon",
+            "caucasian preferred"
+        ],
+        "severity": "Critical",
+        "legal_basis": "Racial Discrimination Act 1975 (Cth), Section 9",
+        "suggestion": "Cannot discriminate based on race, colour, descent, or national or ethnic origin."
+    },
+    {
+        "id": "AU-FEDERAL-002",
+        "category": "Disability (Australia)",
+        "trigger_words": [
+            "no disabled",
+            "able-bodied only",
+            "no wheelchairs",
+            "no assistance animals"
+        ],
+        "severity": "Critical",
+        "legal_basis": "Disability Discrimination Act 1992 (Cth), Section 24",
+        "suggestion": "Cannot discriminate based on disability. Must allow assistance animals."
+    },
+    {
+        "id": "AU-NSW-001",
+        "category": "Transgender Status (NSW)",
+        "trigger_words": [
+            "biological sex only",
+            "no transgender",
+            "gender at birth"
+        ],
+        "severity": "Critical",
+        "legal_basis": "Anti-Discrimination Act 1977 (NSW), Section 38A - Transgender",
+        "suggestion": "Cannot discriminate based on transgender status."
+    },
+    {
+        "id": "AU-VIC-001",
+        "category": "Personal Association (Victoria)",
+        "trigger_words": [
+            "no association with disabled",
+            "family members must be healthy"
+        ],
+        "severity": "Warning",
+        "legal_basis": "Equal Opportunity Act 2010 (Vic), Section 6 - Personal Association",
+        "suggestion": "Cannot discriminate based on association with someone who has a protected attribute."
+    },
+    {
+        "id": "AU-QLD-001",
+        "category": "Lawful Sexual Activity (Queensland)",
+        "trigger_words": [
+            "sex workers not allowed",
+            "no adult industry workers"
+        ],
+        "severity": "Critical",
+        "legal_basis": "Anti-Discrimination Act 1991 (Qld), Section 7 - Lawful Sexual Activity",
+        "suggestion": "Cannot discriminate based on lawful sexual activity or occupation."
+    }
+]
