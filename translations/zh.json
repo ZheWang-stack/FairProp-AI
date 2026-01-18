@@ -1,0 +1,40 @@
+{
+    "ui": {
+        "scan_button": "扫描合规性",
+        "fix_button": "生成修正建议",
+        "score_label": "合规评分",
+        "safe_status": "通过合规检查",
+        "warning_status": "发现合规风险",
+        "critical_status": "发现严重违规",
+        "violations_found": "发现 {count} 个违规项",
+        "no_violations": "未发现违规",
+        "loading": "正在分析...",
+        "download_certificate": "下载合规证书"
+    },
+    "categories": {
+        "race": "种族",
+        "color": "肤色",
+        "religion": "宗教",
+        "sex": "性别",
+        "handicap": "残疾",
+        "familial_status": "家庭状况",
+        "national_origin": "国籍",
+        "source_of_income": "收入来源",
+        "sexual_orientation": "性取向",
+        "gender_identity": "性别认同",
+        "marital_status": "婚姻状况",
+        "military_status": "军人身份",
+        "age": "年龄"
+    },
+    "severity": {
+        "critical": "严重",
+        "warning": "警告",
+        "info": "提示"
+    },
+    "messages": {
+        "api_unavailable": "API 服务不可用",
+        "connection_error": "连接错误",
+        "processing_error": "处理错误",
+        "success": "成功"
+    }
+}
