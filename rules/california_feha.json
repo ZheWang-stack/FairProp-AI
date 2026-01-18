@@ -1,0 +1,52 @@
+[
+    {
+        "id": "CA-FEHA-001",
+        "category": "Source of Income (California)",
+        "trigger_words": [
+            "no section 8",
+            "no vouchers",
+            "no housing assistance",
+            "no government subsidies",
+            "income verification required"
+        ],
+        "severity": "Critical",
+        "legal_basis": "California Government Code § 12955(a)",
+        "suggestion": "All lawful sources of income must be accepted, including Section 8 vouchers and housing assistance."
+    },
+    {
+        "id": "CA-FEHA-002",
+        "category": "Marital Status (California)",
+        "trigger_words": [
+            "married couples only",
+            "no single parents",
+            "traditional family"
+        ],
+        "severity": "Critical",
+        "legal_basis": "California Government Code § 12955",
+        "suggestion": "Do not discriminate based on marital status. Accept all qualified applicants."
+    },
+    {
+        "id": "CA-FEHA-003",
+        "category": "Sexual Orientation (California)",
+        "trigger_words": [
+            "traditional values",
+            "conservative community",
+            "family values"
+        ],
+        "severity": "Warning",
+        "legal_basis": "California Government Code § 12955(a)",
+        "suggestion": "Avoid language that could imply preference based on sexual orientation or gender identity."
+    },
+    {
+        "id": "CA-FEHA-004",
+        "category": "Ancestry (California)",
+        "trigger_words": [
+            "american heritage",
+            "local families",
+            "established lineage"
+        ],
+        "severity": "Warning",
+        "legal_basis": "California Government Code § 12955",
+        "suggestion": "Focus on property features rather than ancestry or heritage of residents."
+    }
+]
