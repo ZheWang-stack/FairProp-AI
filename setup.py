@@ -1,0 +1,45 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="fairprop",
+    version="0.1.0",
+    author="FairProp Contributors",
+    description="The Open Source Standard for Fair Housing Act Compliance in AI.",
+    long_description=open("README.md", encoding="utf-8").read(),
+    long_description_content_type="text/markdown",
+    url="https://github.com/yourusername/fairprop",
+    packages=find_packages(),
+    include_package_data=True,
+    install_requires=[
+        "streamlit",
+        "thefuzz",
+        "python-Levenshtein",
+        "pytesseract",
+        "Pillow",
+        "fpdf2",
+        "chromadb",
+        "sentence-transformers",
+        "transformers",
+        "torch",
+        "typer",
+        "rich",
+        "opencv-python",
+        "numpy",
+        "fastapi",
+        "uvicorn",
+        "pydantic",
+    ],
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+        "Topic :: Scientific/Engineering :: Artificial Intelligence",
+        "Topic :: Sociology :: Ethics",
+    ],
+    python_requires='>=3.9',
+    entry_points={
+        'console_scripts': [
+            'fairprop=fairprop.cli:app',
+        ],
+    },
+)
