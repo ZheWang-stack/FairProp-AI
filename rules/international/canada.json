@@ -1,0 +1,64 @@
+[
+    {
+        "id": "CA-ON-001",
+        "category": "Source of Income (Ontario)",
+        "trigger_words": [
+            "no social assistance",
+            "no ontario works",
+            "no odsp",
+            "employment income only"
+        ],
+        "severity": "Critical",
+        "legal_basis": "Ontario Human Rights Code, Section 2(1) - Receipt of Public Assistance",
+        "suggestion": "Cannot refuse tenants receiving public assistance (Ontario Works, ODSP, etc.)."
+    },
+    {
+        "id": "CA-ON-002",
+        "category": "Family Status (Ontario)",
+        "trigger_words": [
+            "no children",
+            "adults only",
+            "couples preferred",
+            "single professionals"
+        ],
+        "severity": "Critical",
+        "legal_basis": "Ontario Human Rights Code, Section 2(1) - Family Status",
+        "suggestion": "Cannot discriminate based on family status including presence of children."
+    },
+    {
+        "id": "CA-BC-001",
+        "category": "Source of Income (BC)",
+        "trigger_words": [
+            "no welfare",
+            "no income assistance",
+            "no disability benefits"
+        ],
+        "severity": "Critical",
+        "legal_basis": "BC Human Rights Code, Section 8 - Lawful Source of Income",
+        "suggestion": "Must accept all lawful sources of income including social assistance."
+    },
+    {
+        "id": "CA-QC-001",
+        "category": "Civil Status (Quebec)",
+        "trigger_words": [
+            "married couples only",
+            "no single parents",
+            "traditional family"
+        ],
+        "severity": "Critical",
+        "legal_basis": "Quebec Charter of Human Rights and Freedoms, Section 10 - Civil Status",
+        "suggestion": "Cannot discriminate based on civil status (married, single, divorced, etc.)."
+    },
+    {
+        "id": "CA-FEDERAL-001",
+        "category": "Indigenous Status (Federal)",
+        "trigger_words": [
+            "no first nations",
+            "no indigenous",
+            "no aboriginal"
+        ],
+        "severity": "Critical",
+        "legal_basis": "Canadian Human Rights Act, Section 3(1) - Race, National or Ethnic Origin",
+        "suggestion": "Cannot discriminate against Indigenous peoples or based on ethnic origin."
+    }
+]
