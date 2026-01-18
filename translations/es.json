@@ -1,0 +1,29 @@
+{
+    "ui": {
+        "scan_button": "Escanear Cumplimiento",
+        "fix_button": "Generar Corrección",
+        "score_label": "Puntuación de Cumplimiento",
+        "safe_status": "Cumple con las normas",
+        "warning_status": "Riesgos de cumplimiento detectados",
+        "critical_status": "Violaciones graves encontradas",
+        "violations_found": "{count} violaciones encontradas",
+        "no_violations": "No se encontraron violaciones",
+        "loading": "Analizando...",
+        "download_certificate": "Descargar Certificado"
+    },
+    "categories": {
+        "race": "Raza",
+        "color": "Color",
+        "religion": "Religión",
+        "sex": "Sexo",
+        "handicap": "Discapacidad",
+        "familial_status": "Estado Familiar",
+        "national_origin": "Origen Nacional",
+        "source_of_income": "Fuente de Ingresos",
+        "sexual_orientation": "Orientación Sexual",
+        "gender_identity": "Identidad de Género",
+        "marital_status": "Estado Civil",
+        "military_status": "Estado Militar",
+        "age": "Edad"
+    }
+}
