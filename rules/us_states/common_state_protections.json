@@ -1,0 +1,40 @@
+[
+    {
+        "id": "STATE-SOI-001",
+        "category": "Source of Income",
+        "trigger_words": [
+            "no section 8",
+            "no vouchers",
+            "no housing assistance",
+            "no subsidies",
+            "income must be from employment"
+        ],
+        "severity": "Critical",
+        "legal_basis": "State Fair Housing Law - Source of Income Protection",
+        "suggestion": "Must accept all lawful sources of income including housing vouchers and public assistance."
+    },
+    {
+        "id": "STATE-LGBTQ-001",
+        "category": "Sexual Orientation / Gender Identity",
+        "trigger_words": [
+            "traditional family",
+            "conservative values",
+            "family-oriented community"
+        ],
+        "severity": "Warning",
+        "legal_basis": "State Fair Housing Law - Sexual Orientation and Gender Identity Protection",
+        "suggestion": "Avoid language that could imply preference based on sexual orientation or gender identity."
+    },
+    {
+        "id": "STATE-VETERAN-001",
+        "category": "Military/Veteran Status",
+        "trigger_words": [
+            "no military",
+            "civilian only",
+            "non-veteran preferred"
+        ],
+        "severity": "Critical",
+        "legal_basis": "State Fair Housing Law - Military Status Protection",
+        "suggestion": "Cannot discriminate based on military or veteran status."
+    }
+]
