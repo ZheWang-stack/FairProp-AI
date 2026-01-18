@@ -1,0 +1,79 @@
+[
+    {
+        "id": "MX-LFPED-001",
+        "category": "Origin (Mexico)",
+        "trigger_words": [
+            "solo mexicanos",
+            "sin extranjeros",
+            "mexicans only",
+            "no foreigners"
+        ],
+        "severity": "Critical",
+        "legal_basis": "Ley Federal para Prevenir y Eliminar la Discriminación, Artículo 9",
+        "suggestion": "Prohibido discriminar por origen nacional. / Prohibited to discriminate based on national origin."
+    },
+    {
+        "id": "MX-LFPED-002",
+        "category": "Indigenous Status (Mexico)",
+        "trigger_words": [
+            "sin indígenas",
+            "mestizos preferidos",
+            "no indigenous",
+            "mestizos preferred"
+        ],
+        "severity": "Critical",
+        "legal_basis": "LFPED Art. 9 - Protección de pueblos indígenas",
+        "suggestion": "Pueblos indígenas tienen protección especial. / Indigenous peoples have special protection."
+    },
+    {
+        "id": "MX-LFPED-003",
+        "category": "Religion (Mexico)",
+        "trigger_words": [
+            "católicos solamente",
+            "sin protestantes",
+            "catholics only",
+            "no protestants"
+        ],
+        "severity": "Critical",
+        "legal_basis": "Constitución Política Art. 1º - Libertad religiosa",
+        "suggestion": "Discriminación religiosa está prohibida. / Religious discrimination is prohibited."
+    },
+    {
+        "id": "MX-LFPED-004",
+        "category": "Disability (Mexico)",
+        "trigger_words": [
+            "sin discapacitados",
+            "personas sanas",
+            "no disabled",
+            "healthy people"
+        ],
+        "severity": "Critical",
+        "legal_basis": "Ley General para la Inclusión de Personas con Discapacidad",
+        "suggestion": "Personas con discapacidad tienen derecho a vivienda. / People with disabilities have the right to housing."
+    },
+    {
+        "id": "MX-LFPED-005",
+        "category": "Sexual Orientation (Mexico)",
+        "trigger_words": [
+            "heterosexuales solo",
+            "sin lgbt",
+            "heterosexuals only",
+            "no lgbt"
+        ],
+        "severity": "Critical",
+        "legal_basis": "LFPED Art. 9 - Orientación sexual",
+        "suggestion": "Orientación sexual es característica protegida. / Sexual orientation is a protected characteristic."
+    },
+    {
+        "id": "MX-LFPED-006",
+        "category": "Pregnancy (Mexico)",
+        "trigger_words": [
+            "sin embarazadas",
+            "no pregnant",
+            "no maternity"
+        ],
+        "severity": "Critical",
+        "legal_basis": "LFPED Art. 9 - Protección del embarazo",
+        "suggestion": "Embarazo es condición protegida por ley. / Pregnancy is a condition protected by law."
+    }
+]
