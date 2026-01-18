@@ -1,0 +1,64 @@
+[
+    {
+        "id": "UK-EA-001",
+        "category": "Age (UK)",
+        "trigger_words": [
+            "young professionals only",
+            "retirees preferred",
+            "over 50s",
+            "under 30"
+        ],
+        "severity": "Critical",
+        "legal_basis": "Equality Act 2010, Section 4 - Protected Characteristics (Age)",
+        "suggestion": "Cannot discriminate based on age. Describe property features, not ideal tenant age."
+    },
+    {
+        "id": "UK-EA-002",
+        "category": "Religion or Belief (UK)",
+        "trigger_words": [
+            "christian area",
+            "muslim-free",
+            "no religious practices",
+            "secular tenants only"
+        ],
+        "severity": "Critical",
+        "legal_basis": "Equality Act 2010, Section 4 - Protected Characteristics (Religion)",
+        "suggestion": "Cannot discriminate based on religion or belief (including lack of belief)."
+    },
+    {
+        "id": "UK-EA-003",
+        "category": "Pregnancy and Maternity (UK)",
+        "trigger_words": [
+            "no pregnant women",
+            "no maternity leave",
+            "not suitable for babies"
+        ],
+        "severity": "Critical",
+        "legal_basis": "Equality Act 2010, Section 4 - Protected Characteristics (Pregnancy)",
+        "suggestion": "Cannot discriminate against pregnant women or those on maternity leave."
+    },
+    {
+        "id": "UK-EA-004",
+        "category": "Marriage and Civil Partnership (UK)",
+        "trigger_words": [
+            "married couples only",
+            "no civil partnerships",
+            "traditional marriage"
+        ],
+        "severity": "Critical",
+        "legal_basis": "Equality Act 2010, Section 4 - Protected Characteristics (Marriage)",
+        "suggestion": "Cannot discriminate based on marriage or civil partnership status."
+    },
+    {
+        "id": "UK-EA-005",
+        "category": "Gender Reassignment (UK)",
+        "trigger_words": [
+            "biological sex only",
+            "no trans",
+            "gender at birth"
+        ],
+        "severity": "Critical",
+        "legal_basis": "Equality Act 2010, Section 7 - Gender Reassignment",
+        "suggestion": "Cannot discriminate against transgender individuals or those undergoing gender reassignment."
+    }
+]
