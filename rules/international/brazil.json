@@ -1,0 +1,67 @@
+[
+    {
+        "id": "BR-LEI-001",
+        "category": "Race/Color (Brazil)",
+        "trigger_words": [
+            "apenas brancos",
+            "sem negros",
+            "whites only",
+            "no blacks"
+        ],
+        "severity": "Critical",
+        "legal_basis": "Lei de Locações 8.245/91 + Constituição Federal Art. 5º",
+        "suggestion": "Discriminação racial é crime no Brasil. / Racial discrimination is a crime in Brazil."
+    },
+    {
+        "id": "BR-LEI-002",
+        "category": "Origin (Brazil)",
+        "trigger_words": [
+            "apenas brasileiros",
+            "sem estrangeiros",
+            "brazilians only",
+            "no foreigners"
+        ],
+        "severity": "Critical",
+        "legal_basis": "Lei 7.716/89 - Lei do Racismo",
+        "suggestion": "Não pode discriminar por origem ou nacionalidade. / Cannot discriminate based on origin or nationality."
+    },
+    {
+        "id": "BR-LEI-003",
+        "category": "Religion (Brazil)",
+        "trigger_words": [
+            "católicos apenas",
+            "sem evangélicos",
+            "catholics only",
+            "no evangelicals"
+        ],
+        "severity": "Critical",
+        "legal_basis": "Constituição Federal Art. 5º, VI - Liberdade religiosa",
+        "suggestion": "Liberdade religiosa é garantida constitucionalmente. / Religious freedom is constitutionally guaranteed."
+    },
+    {
+        "id": "BR-LEI-004",
+        "category": "Disability (Brazil)",
+        "trigger_words": [
+            "sem deficientes",
+            "pessoas saudáveis",
+            "no disabled",
+            "healthy people"
+        ],
+        "severity": "Critical",
+        "legal_basis": "Lei Brasileira de Inclusão 13.146/2015",
+        "suggestion": "Discriminação por deficiência é ilegal. / Disability discrimination is illegal."
+    },
+    {
+        "id": "BR-LEI-005",
+        "category": "Sexual Orientation (Brazil)",
+        "trigger_words": [
+            "heterossexuais apenas",
+            "sem lgbt",
+            "heterosexuals only",
+            "no lgbt"
+        ],
+        "severity": "Critical",
+        "legal_basis": "STF - Criminalização da LGBTfobia",
+        "suggestion": "LGBTfobia é equiparada ao racismo no Brasil. / LGBTphobia is equivalent to racism in Brazil."
+    }
+]
