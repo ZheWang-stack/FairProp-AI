@@ -1,0 +1,68 @@
+[
+    {
+        "id": "DE-AGG-001",
+        "category": "Ethnic Origin (Germany)",
+        "trigger_words": [
+            "nur deutsche",
+            "keine ausländer",
+            "nur europäer",
+            "german only",
+            "no foreigners"
+        ],
+        "severity": "Critical",
+        "legal_basis": "AGG § 19 - Allgemeines Gleichbehandlungsgesetz (General Equal Treatment Act)",
+        "suggestion": "Darf nicht aufgrund ethnischer Herkunft oder Nationalität diskriminieren. / Cannot discriminate based on ethnic origin or nationality."
+    },
+    {
+        "id": "DE-AGG-002",
+        "category": "Religion (Germany)",
+        "trigger_words": [
+            "keine muslime",
+            "christen bevorzugt",
+            "no muslims",
+            "christians preferred"
+        ],
+        "severity": "Critical",
+        "legal_basis": "AGG § 1 - Protection against discrimination based on religion",
+        "suggestion": "Religiöse Diskriminierung ist verboten. / Religious discrimination is prohibited."
+    },
+    {
+        "id": "DE-AGG-003",
+        "category": "Disability (Germany)",
+        "trigger_words": [
+            "keine behinderten",
+            "gesund nur",
+            "no disabled",
+            "able-bodied only"
+        ],
+        "severity": "Critical",
+        "legal_basis": "AGG § 1 - Protection against discrimination based on disability",
+        "suggestion": "Diskriminierung aufgrund von Behinderung ist gesetzlich verboten. / Discrimination based on disability is illegal."
+    },
+    {
+        "id": "DE-AGG-004",
+        "category": "Age (Germany)",
+        "trigger_words": [
+            "nur junge leute",
+            "senioren nicht erwünscht",
+            "young people only",
+            "no seniors"
+        ],
+        "severity": "Warning",
+        "legal_basis": "AGG § 1 - Protection against age discrimination",
+        "suggestion": "Altersdiskriminierung vermeiden. / Avoid age discrimination."
+    },
+    {
+        "id": "DE-AGG-005",
+        "category": "Sexual Identity (Germany)",
+        "trigger_words": [
+            "heterosexuell nur",
+            "traditionelle familie",
+            "heterosexual only",
+            "traditional family"
+        ],
+        "severity": "Critical",
+        "legal_basis": "AGG § 1 - Protection based on sexual identity",
+        "suggestion": "Diskriminierung aufgrund sexueller Identität ist verboten. / Discrimination based on sexual identity is prohibited."
+    }
+]
