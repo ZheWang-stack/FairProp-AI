@@ -1,0 +1,36 @@
+{
+    "ui": {
+        "welcome": "Bienvenue sur FairProp AI",
+        "scan_button": "Analyser le texte",
+        "results": "Résultats",
+        "score": "Score de conformité",
+        "violations": "Violations détectées",
+        "safe": "Conforme",
+        "unsafe": "Non conforme"
+    },
+    "violations": {
+        "age": "Discrimination par l'âge",
+        "race": "Discrimination raciale",
+        "religion": "Discrimination religieuse",
+        "sex": "Discrimination sexuelle",
+        "familial_status": "Discrimination sur la situation familiale",
+        "disability": "Discrimination sur le handicap",
+        "national_origin": "Discrimination sur l'origine nationale",
+        "source_of_income": "Discrimination sur la source de revenus"
+    },
+    "severity": {
+        "critical": "Critique",
+        "warning": "Avertissement",
+        "info": "Information"
+    },
+    "messages": {
+        "no_violations": "Aucune violation détectée. Le texte est conforme.",
+        "violations_found": "violations trouvées",
+        "improve_score": "Améliorez votre score en supprimant le langage discriminatoire."
+    },
+    "suggestions": {
+        "remove_language": "Supprimez le langage discriminatoire",
+        "describe_property": "Décrivez les caractéristiques de la propriété",
+        "neutral_terms": "Utilisez des termes neutres et inclusifs"
+    }
+}
