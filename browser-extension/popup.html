@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>FairProp Compliance</title>
+    <style>
+        body {
+            width: 350px;
+            padding: 16px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 18px;
+            margin: 0 0 12px 0;
+            color: #1976d2;
+        }
+
+        .status {
+            padding: 12px;
+            border-radius: 6px;
+            margin-bottom: 12px;
+            font-size: 14px;
+        }
+
+        .status.active {
+            background: #e8f5e9;
+            color: #2e7d32;
+            border-left: 4px solid #4caf50;
+        }
+
+        .status.inactive {
+            background: #ffebee;
+            color: #c62828;
+            border-left: 4px solid #f44336;
+        }
+
+        textarea {
+            width: 100%;
+            height: 100px;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 13px;
+            resize: vertical;
+            box-sizing: border-box;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #1976d2;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            margin-top: 8px;
+        }
+
+        button:hover {
+            background: #1565c0;
+        }
+
+        #result {
+            margin-top: 12px;
+            padding: 12px;
+            border-radius: 4px;
+            font-size: 13px;
+            display: none;
+        }
+
+        #result.safe {
+            background: #e8f5e9;
+            color: #2e7d32;
+        }
+
+        #result.warning {
+            background: #fff3e0;
+            color: #e65100;
+        }
+
+        .footer {
+            margin-top: 16px;
+            padding-top: 12px;
+            border-top: 1px solid #eee;
+            font-size: 11px;
+            color: #666;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>🛡️ FairProp Compliance</h1>
+
+    <div id="status" class="status active">
+        ✓ Real-time monitoring active
+    </div>
+
+    <p style="font-size: 13px; color: #666; margin: 12px 0;">
+        Quick check any text:
+    </p>
+
+    <textarea id="textInput" placeholder="Paste listing description here..."></textarea>
+    <button id="checkBtn">Check Compliance</button>
+
+    <div id="result"></div>
+
+    <div class="footer">
+        Powered by FairProp Open Source<br>
+        HUD 2024 Compliant
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>
