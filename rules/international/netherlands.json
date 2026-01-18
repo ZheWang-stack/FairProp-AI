@@ -1,0 +1,67 @@
+[
+    {
+        "id": "NL-AWGB-001",
+        "category": "Race/Ethnicity (Netherlands)",
+        "trigger_words": [
+            "alleen nederlanders",
+            "geen buitenlanders",
+            "dutch only",
+            "no foreigners"
+        ],
+        "severity": "Critical",
+        "legal_basis": "Algemene wet gelijke behandeling (AWGB), Article 5",
+        "suggestion": "Discriminatie op basis van ras of etniciteit is verboden. / Discrimination based on race or ethnicity is prohibited."
+    },
+    {
+        "id": "NL-AWGB-002",
+        "category": "Religion (Netherlands)",
+        "trigger_words": [
+            "geen moslims",
+            "christenen voorkeur",
+            "no muslims",
+            "christians preferred"
+        ],
+        "severity": "Critical",
+        "legal_basis": "AWGB Article 1 - Religious discrimination",
+        "suggestion": "Religieuze discriminatie is niet toegestaan. / Religious discrimination is not permitted."
+    },
+    {
+        "id": "NL-AWGB-003",
+        "category": "Sexual Orientation (Netherlands)",
+        "trigger_words": [
+            "heteroseksuelen alleen",
+            "geen lgbt",
+            "heterosexuals only",
+            "no lgbt"
+        ],
+        "severity": "Critical",
+        "legal_basis": "AWGB Article 1 - Sexual orientation protection",
+        "suggestion": "Discriminatie op basis van seksuele gerichtheid is illegaal. / Discrimination based on sexual orientation is illegal."
+    },
+    {
+        "id": "NL-AWGB-004",
+        "category": "Disability (Netherlands)",
+        "trigger_words": [
+            "geen gehandicapten",
+            "gezonde huurders",
+            "no disabled",
+            "healthy tenants"
+        ],
+        "severity": "Critical",
+        "legal_basis": "AWGB Article 1 - Disability protection",
+        "suggestion": "Handicap-discriminatie is wettelijk verboden. / Disability discrimination is legally prohibited."
+    },
+    {
+        "id": "NL-AWGB-005",
+        "category": "Civil Status (Netherlands)",
+        "trigger_words": [
+            "getrouwde stellen alleen",
+            "geen alleenstaanden",
+            "married couples only",
+            "no singles"
+        ],
+        "severity": "Warning",
+        "legal_basis": "AWGB Article 1 - Civil status protection",
+        "suggestion": "Burgerlijke staat mag geen rol spelen. / Civil status should not be a factor."
+    }
+]
