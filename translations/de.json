@@ -1,0 +1,36 @@
+{
+    "ui": {
+        "welcome": "Willkommen bei FairProp AI",
+        "scan_button": "Text analysieren",
+        "results": "Ergebnisse",
+        "score": "Compliance-Score",
+        "violations": "Verstöße erkannt",
+        "safe": "Konform",
+        "unsafe": "Nicht konform"
+    },
+    "violations": {
+        "age": "Altersdiskriminierung",
+        "race": "Rassendiskriminierung",
+        "religion": "Religiöse Diskriminierung",
+        "sex": "Geschlechtsdiskriminierung",
+        "familial_status": "Diskriminierung aufgrund des Familienstands",
+        "disability": "Behinderungsdiskriminierung",
+        "national_origin": "Diskriminierung aufgrund der nationalen Herkunft",
+        "source_of_income": "Diskriminierung aufgrund der Einkommensquelle"
+    },
+    "severity": {
+        "critical": "Kritisch",
+        "warning": "Warnung",
+        "info": "Information"
+    },
+    "messages": {
+        "no_violations": "Keine Verstöße erkannt. Der Text ist konform.",
+        "violations_found": "Verstöße gefunden",
+        "improve_score": "Verbessern Sie Ihren Score, indem Sie diskriminierende Sprache entfernen."
+    },
+    "suggestions": {
+        "remove_language": "Entfernen Sie diskriminierende Sprache",
+        "describe_property": "Beschreiben Sie die Eigenschaften der Immobilie",
+        "neutral_terms": "Verwenden Sie neutrale und inklusive Begriffe"
+    }
+}
