@@ -1,0 +1,53 @@
+[
+    {
+        "id": "NYC-HRL-001",
+        "category": "Criminal History (NYC)",
+        "trigger_words": [
+            "no criminal record",
+            "background check required",
+            "clean record only",
+            "no felons"
+        ],
+        "severity": "Critical",
+        "legal_basis": "NYC Administrative Code § 8-107(11-a)",
+        "suggestion": "Cannot categorically deny applicants with criminal history. Must conduct individualized assessment."
+    },
+    {
+        "id": "NYC-HRL-002",
+        "category": "Source of Income (NYC)",
+        "trigger_words": [
+            "no section 8",
+            "no vouchers",
+            "no cityfheps",
+            "no hasa"
+        ],
+        "severity": "Critical",
+        "legal_basis": "NYC Administrative Code § 8-107(5)(a)",
+        "suggestion": "Must accept all lawful sources of income including vouchers, subsidies, and public assistance."
+    },
+    {
+        "id": "NYC-HRL-003",
+        "category": "Immigration Status (NYC)",
+        "trigger_words": [
+            "citizens only",
+            "no visa holders",
+            "green card required",
+            "legal status required"
+        ],
+        "severity": "Critical",
+        "legal_basis": "NYC Administrative Code § 8-107(1)",
+        "suggestion": "Cannot discriminate based on immigration or citizenship status."
+    },
+    {
+        "id": "NYC-HRL-004",
+        "category": "Lawful Occupation (NYC)",
+        "trigger_words": [
+            "no uber drivers",
+            "no gig workers",
+            "stable employment only"
+        ],
+        "severity": "Warning",
+        "legal_basis": "NYC Administrative Code § 8-107(1)",
+        "suggestion": "Cannot discriminate based on lawful occupation or source of income."
+    }
+]
