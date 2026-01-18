@@ -1,0 +1,53 @@
+[
+    {
+        "id": "DC-HRL-001",
+        "category": "Source of Income (DC)",
+        "trigger_words": [
+            "no section 8",
+            "no vouchers",
+            "no housing assistance",
+            "employment income only"
+        ],
+        "severity": "Critical",
+        "legal_basis": "DC Human Rights Act, D.C. Code § 2-1402.21",
+        "suggestion": "Must accept all lawful sources of income including housing vouchers and public assistance."
+    },
+    {
+        "id": "DC-HRL-002",
+        "category": "Sexual Orientation & Gender Identity (DC)",
+        "trigger_words": [
+            "traditional family",
+            "straight couples",
+            "no lgbtq",
+            "gender at birth"
+        ],
+        "severity": "Critical",
+        "legal_basis": "DC Human Rights Act, D.C. Code § 2-1401.02",
+        "suggestion": "Cannot discriminate based on sexual orientation or gender identity/expression."
+    },
+    {
+        "id": "DC-HRL-003",
+        "category": "Marital Status (DC)",
+        "trigger_words": [
+            "married couples only",
+            "no single parents",
+            "traditional marriage"
+        ],
+        "severity": "Critical",
+        "legal_basis": "DC Human Rights Act, D.C. Code § 2-1402.21",
+        "suggestion": "Cannot discriminate based on marital status, family responsibilities, or matriculation."
+    },
+    {
+        "id": "DC-HRL-004",
+        "category": "Political Affiliation (DC)",
+        "trigger_words": [
+            "no democrats",
+            "no republicans",
+            "conservative only",
+            "liberal only"
+        ],
+        "severity": "Critical",
+        "legal_basis": "DC Human Rights Act, D.C. Code § 2-1401.02",
+        "suggestion": "Cannot discriminate based on political affiliation - unique to DC."
+    }
+]
