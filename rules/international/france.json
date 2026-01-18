@@ -1,0 +1,67 @@
+[
+    {
+        "id": "FR-CCH-001",
+        "category": "Origin (France)",
+        "trigger_words": [
+            "français seulement",
+            "pas d'étrangers",
+            "french only",
+            "no foreigners"
+        ],
+        "severity": "Critical",
+        "legal_basis": "Code de la construction et de l'habitation, Article L. 300-1",
+        "suggestion": "Interdiction de discriminer en raison de l'origine. / Cannot discriminate based on origin."
+    },
+    {
+        "id": "FR-CCH-002",
+        "category": "Family Situation (France)",
+        "trigger_words": [
+            "pas d'enfants",
+            "couples sans enfants",
+            "no children",
+            "childless couples"
+        ],
+        "severity": "Critical",
+        "legal_basis": "Loi n° 2008-496 - Protection against family status discrimination",
+        "suggestion": "La discrimination fondée sur la situation de famille est interdite. / Discrimination based on family status is prohibited."
+    },
+    {
+        "id": "FR-CCH-003",
+        "category": "Religion (France)",
+        "trigger_words": [
+            "pas de musulmans",
+            "catholiques préférés",
+            "no muslims",
+            "catholics preferred"
+        ],
+        "severity": "Critical",
+        "legal_basis": "Code pénal, Article 225-1 - Religious discrimination",
+        "suggestion": "Discrimination religieuse strictement interdite. / Religious discrimination strictly prohibited."
+    },
+    {
+        "id": "FR-CCH-004",
+        "category": "Disability (France)",
+        "trigger_words": [
+            "pas de handicapés",
+            "personnes valides uniquement",
+            "no disabled",
+            "able-bodied only"
+        ],
+        "severity": "Critical",
+        "legal_basis": "Loi n° 2005-102 - Disability rights",
+        "suggestion": "Discrimination fondée sur le handicap est illégale. / Disability discrimination is illegal."
+    },
+    {
+        "id": "FR-CCH-005",
+        "category": "Sexual Orientation (France)",
+        "trigger_words": [
+            "hétérosexuels seulement",
+            "pas de lgbt",
+            "heterosexuals only",
+            "no lgbt"
+        ],
+        "severity": "Critical",
+        "legal_basis": "Code pénal, Article 225-1 - Sexual orientation protection",
+        "suggestion": "Orientation sexuelle est une caractéristique protégée. / Sexual orientation is a protected characteristic."
+    }
+]
