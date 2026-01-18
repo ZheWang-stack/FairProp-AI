@@ -1,0 +1,4 @@
+include fha_rules.json
+include README.md
+include LICENSE
+recursive-include tests *.py
