@@ -1,0 +1,66 @@
+[
+    {
+        "id": "SG-PRESIDENTIAL-001",
+        "category": "Race, Religion, Language (Singapore)",
+        "trigger_words": [
+            "chinese only",
+            "no malays",
+            "no indians",
+            "mandarin speakers only"
+        ],
+        "severity": "Critical",
+        "legal_basis": "Presidential Council for Minority Rights - Ethnic Integration Policy",
+        "suggestion": "Cannot discriminate based on race, religion, or language. Singapore enforces ethnic quotas for integration."
+    },
+    {
+        "id": "HK-DDO-001",
+        "category": "Race (Hong Kong)",
+        "trigger_words": [
+            "local chinese only",
+            "no mainland",
+            "no foreigners",
+            "cantonese only"
+        ],
+        "severity": "Critical",
+        "legal_basis": "Race Discrimination Ordinance (Cap. 602), Section 4",
+        "suggestion": "Cannot discriminate based on race, including nationality or ethnic origin."
+    },
+    {
+        "id": "HK-DDO-002",
+        "category": "Disability (Hong Kong)",
+        "trigger_words": [
+            "no disabled",
+            "able-bodied only",
+            "no wheelchairs"
+        ],
+        "severity": "Critical",
+        "legal_basis": "Disability Discrimination Ordinance (Cap. 487), Section 27",
+        "suggestion": "Cannot discriminate based on disability in provision of accommodation."
+    },
+    {
+        "id": "JP-BASIC-001",
+        "category": "Nationality (Japan)",
+        "trigger_words": [
+            "japanese only",
+            "no foreigners",
+            "nihonjin nomi",
+            "gaikokujin dame"
+        ],
+        "severity": "Critical",
+        "legal_basis": "Act on Promotion of Human Rights Education and Human Rights Awareness-Raising",
+        "suggestion": "Cannot discriminate based on nationality. 'Japanese Only' signs are illegal."
+    },
+    {
+        "id": "JP-GENDER-001",
+        "category": "Gender (Japan)",
+        "trigger_words": [
+            "women only",
+            "men only",
+            "female preferred",
+            "male tenants"
+        ],
+        "severity": "Warning",
+        "legal_basis": "Act on Securing Equal Opportunity and Treatment between Men and Women",
+        "suggestion": "Avoid gender-specific language unless legally justified (e.g., women-only floors for safety)."
+    }
+]
