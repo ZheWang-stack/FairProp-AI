@@ -2,7 +2,7 @@ import logging
 import os
 import uuid
 from typing import Optional, Any
-from functools import lru_cache
+
 
 # Configure logging
 logger = logging.getLogger("fairprop.models")
