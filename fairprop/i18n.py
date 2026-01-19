@@ -49,12 +49,12 @@ class I18n:
             try:
                 with open(translation_file, 'r', encoding='utf-8') as f:
                     self.translations = json.load(f)
-                logger.info(f"Loaded translations for language: {self.language}")
+                logger.info("Loaded translations for language: %s", self.language)
             except Exception as e:
-                logger.warning(f"Failed to load translations for {self.language}: {e}")
+                logger.warning("Failed to load translations for %s: %s", self.language, e)
                 self.translations = {}
         else:
-            logger.warning(f"Translation file not found for {self.language}, using English defaults")
+            logger.warning("Translation file not found for %s, using English defaults", self.language)
             self.translations = {}
     
     def t(self, key: str, default: Optional[str] = None, **kwargs) -> str:
@@ -85,7 +85,7 @@ class I18n:
             try:
                 value = value.format(**kwargs)
             except KeyError as e:
-                logger.warning(f"Missing variable in translation: {e}")
+                logger.warning("Missing variable in translation: %s", e)
         
         return value
     
@@ -130,9 +130,9 @@ class I18n:
         if language in self.SUPPORTED_LANGUAGES:
             self.language = language
             self._load_translations()
-            logger.info(f"Language changed to: {self.SUPPORTED_LANGUAGES[language]}")
+            logger.info("Language changed to: %s", self.SUPPORTED_LANGUAGES[language])
         else:
-            logger.warning(f"Unsupported language: {language}")
+            logger.warning("Unsupported language: %s", language)
     
     @classmethod
     def get_supported_languages(cls) -> Dict[str, str]:
