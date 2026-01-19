@@ -7,7 +7,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ZheWang-stack/FairProp-AI/blob/main/CONTRIBUTING.md)
 
 **100+ Jurisdictions** • **6 Continents** • **20+ Languages** • **Neuro-Symbolic AI**
 
@@ -128,7 +128,7 @@ graph LR
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/fairprop.git
+git clone https://github.com/ZheWang-stack/FairProp-AI.git
 cd fairprop
 
 # Install with all dependencies
@@ -422,8 +422,8 @@ Built on the shoulders of giants:
 
 ## 📞 Support & Community
 
-- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/yourusername/fairprop/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/yourusername/fairprop/discussions)
+- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/ZheWang-stack/FairProp-AI/issues)
+- 💬 **Discussions**: [GitHub Discussions](https://github.com/ZheWang-stack/FairProp-AI/discussions)
 - 📖 **Documentation**: [docs/](docs/)
 - ⭐ **Star this repo** if you find it useful!
 
@@ -438,6 +438,6 @@ Built on the shoulders of giants:
 
 ---
 
-**[⬆ Back to Top](#-fairprop-ai)**
+**[⬆ Back to Top](https://github.com/ZheWang-stack/FairProp-AI#user-content--fairprop-ai)**
 
 </div>
