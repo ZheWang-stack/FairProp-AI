@@ -4,7 +4,14 @@
 
 <img src="assets/logo.png" width="180" alt="FairProp AI Logo" />
 
-### The World's Only Global Fair Housing Compliance Platform
+### Scalable AI-Powered Fair Housing Compliance Screening
+
+<div align="center">
+  <p>
+    <strong>A production-ready framework for real estate platforms, SaaS providers, and compliance pipelines.</strong>
+  </p>
+</div>
+
 
 
 [![Compliance](https://img.shields.io/badge/Compliance-HUD--FHA-blue)](https://www.hud.gov/)
@@ -443,7 +450,15 @@ Built on the shoulders of giants:
 
 ### Built with ❤️ for fair housing worldwide
 
-**Disclaimer: This tool provides automated compliance checks based on HUD/FHA guidelines but does not constitute legal advice. Please consult a qualified attorney for final review.**
+**⚠️ LEGAL DISCLAIMER: SCREENING TOOL ONLY**
+
+**FairProp-AI is an automated compliance screening tool.** It does NOT provide legal advice or definitive legal determinations.
+- The use of this tool does not guarantee compliance with the Fair Housing Act or any other law.
+- Results are probabilistic and based on heuristic rules.
+- **ALWAYS** consult a qualified attorney for final review of real estate advertisements.
+
+[**Read Full Legal Notice**](LEGAL_NOTICE.md)
+
 
 ---
 
