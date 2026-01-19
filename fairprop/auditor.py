@@ -3,7 +3,7 @@ import re
 import os
 import logging
 import hashlib
-from typing import List, Dict, Any, Union, TypedDict, Optional
+from typing import List, Dict, Any, Union, TypedDict
 from functools import lru_cache
 
 # Fallback for fuzzy matching
@@ -82,7 +82,7 @@ class FairHousingAuditor:
         try:
             from .i18n import get_i18n
             self.i18n = get_i18n(language)
-            logger.debug(f"i18n initialized for language: {language}")
+            logger.debug("i18n initialized for language: %s", language)
         except ImportError:
             logger.warning("i18n module not available, falling back to English")
             self.i18n = None
@@ -90,7 +90,7 @@ class FairHousingAuditor:
         # Load federal rules first, then merge jurisdiction-specific rules
         # This allows us to support multi-jurisdiction compliance in a single scan
         self.rules = self._load_rules()
-        logger.info(f"Loaded {len(self.rules)} total rules (federal + {len(self.jurisdictions)} jurisdictions)")
+        logger.info("Loaded %s total rules (federal + %s jurisdictions)", len(self.rules), len(self.jurisdictions))
         
         # Get singleton ModelManager instance (handles lazy loading of heavy AI models)
         self.model_manager = ModelManager.get_instance()
@@ -119,10 +119,10 @@ class FairHousingAuditor:
         if self.model_manager.has_ai:
             logger.info("Re-indexing rules into vector database...")
             # Force recreation of collection
-            self.model_manager._chroma_collection = None
+            self.model_manager.reset_collection()
             _ = self.model_manager.get_collection(self.rules)
         
-        logger.info(f"Rules reloaded: {old_count} → {new_count} rules")
+        logger.info("Rules reloaded: %s -> %s rules", old_count, new_count)
         return {"old_count": old_count, "new_count": new_count}
 
     def _load_rules(self) -> List[Dict[str, Any]]:
@@ -133,7 +133,7 @@ class FairHousingAuditor:
             if os.path.exists(cwd_path):
                 self.rules_path = cwd_path
             else:
-                logger.error(f"Rules database not found at {self.rules_path}")
+                logger.error("Rules database not found at %s", self.rules_path)
                 raise FileNotFoundError(f"Rules database not found at {self.rules_path}")
         
         try:
