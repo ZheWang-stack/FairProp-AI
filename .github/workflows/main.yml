@@ -28,7 +28,7 @@ jobs:
     - name: Install system dependencies
       run: |
         sudo apt-get update
-        sudo apt-get install -y tesseract-ocr libreoffice
+        sudo apt-get install -y tesseract-ocr libreoffice libgl1
         
     - name: Install dependencies
       run: |
