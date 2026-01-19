@@ -23,7 +23,7 @@ setup(
         "torch",
         "typer",
         "rich",
-        "opencv-python",
+        "opencv-python-headless",
         "numpy",
         "fastapi",
         "uvicorn",
