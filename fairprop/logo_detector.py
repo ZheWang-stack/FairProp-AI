@@ -68,7 +68,7 @@ class LogoDetector:
             
             # Perform template matching
             result = cv2.matchTemplate(img, self.template, cv2.TM_CCOEFF_NORMED)
-            min_val, max_val, min_loc, max_loc = cv2.minMaxLoc(result)
+            _, max_val, _, max_loc = cv2.minMaxLoc(result)
             
             # Check if confidence exceeds threshold
             if max_val >= self.threshold:
