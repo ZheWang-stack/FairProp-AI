@@ -141,7 +141,7 @@ class FairHousingAuditor:
                 federal_rules = json.load(f)
         except json.JSONDecodeError as e:
             logger.error("Error parsing rules file: %s", e)
-            raise ValueError(f"Error parsing rules file: {e}")
+            raise ValueError(f"Error parsing rules file: {e}") from e
         
         # Load jurisdiction-specific rules
         all_rules = federal_rules.copy()
