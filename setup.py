@@ -7,7 +7,7 @@ setup(
     description="The Open Source Standard for Fair Housing Act Compliance in AI.",
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/fairprop",
+    url="https://github.com/ZheWang-stack/FairProp-AI",
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
