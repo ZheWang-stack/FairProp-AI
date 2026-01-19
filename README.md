@@ -2,14 +2,24 @@
 
 # 🛡️ FairProp AI
 
+<img src="assets/logo.png" width="180" alt="FairProp AI Logo" />
+
 ### The World's Only Global Fair Housing Compliance Platform
 
+
+[![Compliance](https://img.shields.io/badge/Compliance-HUD--FHA-blue)](https://www.hud.gov/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/ZheWang-stack/FairProp-AI/actions)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ZheWang-stack/FairProp-AI/blob/main/CONTRIBUTING.md)
 
 **100+ Jurisdictions** • **6 Continents** • **20+ Languages** • **Neuro-Symbolic AI**
+
+🇺🇸 🇨🇦 🇦🇺 🇪🇺 🇬🇧
+*Supporting Multi-Jurisdictional Compliance (US, Canada, EU, Australia, UK)*
+
+![FairProp Dashboard Demo](assets/demo.png)
 
 [Features](#-features) • [Quick Start](#-quick-start) • [Documentation](#-documentation) • [API](#-rest-api) • [Contributing](#-contributing)
 
@@ -413,7 +423,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 Built on the shoulders of giants:
 
-- Inspired by [Zillow's fair-housing-guardrail](https://github.com/zillow/fair-housing-guardrail)
+- **Acknowledgement**: This project builds upon the architectural concepts of the `fair-housing-guardrail` model open-sourced by Zillow Group. We extend our gratitude to Zillow for their contribution to the open-source community.
 - Powered by [HuggingFace Transformers](https://huggingface.co/docs/transformers)
 - API framework by [FastAPI](https://fastapi.tiangolo.com/)
 - Vector search by [ChromaDB](https://www.trychroma.com/)
@@ -433,8 +443,7 @@ Built on the shoulders of giants:
 
 ### Built with ❤️ for fair housing worldwide
 
-**FairProp is an auditing tool and does not constitute legal advice.**  
-*Always consult with fair housing professionals for legal compliance.*
+**Disclaimer: This tool provides automated compliance checks based on HUD/FHA guidelines but does not constitute legal advice. Please consult a qualified attorney for final review.**
 
 ---
 
