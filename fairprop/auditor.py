@@ -140,7 +140,7 @@ class FairHousingAuditor:
             with open(self.rules_path, 'r', encoding='utf-8') as f:
                 federal_rules = json.load(f)
         except json.JSONDecodeError as e:
-            logger.error(f"Error parsing rules file: {e}")
+            logger.error("Error parsing rules file: %s", e)
             raise ValueError(f"Error parsing rules file: {e}")
         
         # Load jurisdiction-specific rules
@@ -523,10 +523,10 @@ class FairHousingAuditor:
                     if not logo_result.get("found", False):
                         logger.warning("Equal Housing Opportunity logo not detected in image")
                 except Exception as e:
-                    logger.warning(f"Logo detection skipped: {e}")
+                    logger.warning("Logo detection skipped: %s", e)
                     result["logo_detection"] = {"found": False, "message": f"Detection unavailable: {e}"}
             
             return result
         except Exception as e:
-            logger.error(f"Image scan failed: {e}")
-            raise Exception(f"Failed to process image: {str(e)}")
+            logger.error("Image scan failed: %s", e)
+            raise RuntimeError(f"Failed to process image: {str(e)}") from e
