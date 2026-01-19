@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Wang"
+  given-names: "Zhe"
+title: "FairProp AI: Global Fair Housing Compliance Platform"
+version: 2.0.0
+date-released: 2026-01-19
+url: "https://github.com/ZheWang-stack/FairProp-AI"
+license: MIT
+keywords:
+  - fair-housing
+  - artificial-intelligence
+  - nlp
+  - real-estate
+  - compliance
