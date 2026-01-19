@@ -1,4 +1,5 @@
 import typer
+import os
 from rich import print
 from rich.console import Console
 from rich.panel import Panel
@@ -17,8 +18,6 @@ def scan(
     """
     Scans a text string or file for Fair Housing Act violations.
     """
-    # Check if input is a file
-    import os
     if os.path.exists(text):
         with open(text, 'r', encoding='utf-8') as f:
             content = f.read()
