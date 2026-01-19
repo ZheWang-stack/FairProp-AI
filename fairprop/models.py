@@ -63,6 +63,10 @@ class ModelManager:
             self._chroma_client = chromadb.Client()
         return self._chroma_client
 
+    def reset_collection(self):
+        """Reset the vector database collection."""
+        self._chroma_collection = None
+
     def get_collection(self, rules: list):
         """Gets or creates the ChromaDB collection for rules."""
         if not self._has_ai: return None
