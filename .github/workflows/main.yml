@@ -41,5 +41,8 @@ jobs:
         pylint fairprop/ --disable=C,R,W0718
         
     - name: Test with pytest
+      env:
+        PYTHONPATH: ${{ github.workspace }}
       run: |
-        pytest tests/
+        pytest tests/ -v
+
