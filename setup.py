@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="fairprop",
-    version="0.1.0",
+    version="0.2.0",
     author="FairProp Contributors",
     description="The Open Source Standard for Fair Housing Act Compliance in AI.",
     long_description=open("README.md", encoding="utf-8").read(),

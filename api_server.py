@@ -58,7 +58,7 @@ def log_usage(endpoint: str, request_data: dict, response_data: dict):
     """Log API usage for analytics (runs in background)."""
     try:
         log_entry = {
-            "timestamp": datetime.utcnow().isoformat(),
+            "timestamp": datetime.now(datetime.UTC).isoformat(),
             "endpoint": endpoint,
             "request": request_data,
             "response": {

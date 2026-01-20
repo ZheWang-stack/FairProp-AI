@@ -1,25 +1,20 @@
 streamlit
-thefuzz
-python-Levenshtein
+thefuzz>=0.20.0
+python-Levenshtein>=0.21.0
 pytesseract
 Pillow
 fpdf2
-chromadb
-sentence-transformers
-transformers
-torch
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
 transformers>=4.30.0
 torch>=2.0.0
-sentence-transformers>=2.2.0
-chromadb>=0.4.0
-thefuzz>=0.20.0
-python-Levenshtein>=0.21.0
 opencv-python-headless
 typer
 rich
 fastapi
 uvicorn
 pydantic
+numpy
 
 # Testing
 pytest>=7.4.0
