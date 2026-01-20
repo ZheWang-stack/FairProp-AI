@@ -76,6 +76,7 @@ def run_platform_audit():
     for listing in listings:
         audit_listing(auditor, listing)
 
+def audit_listing(auditor: FairHousingAuditor, listing: Dict):
     """Audit a single listing and display results."""
     console.print(f"\n[bold]Scanning Listing:[/bold] {listing['id']} ({listing['platform']})")
     console.print(f"[dim]Location: {listing['location']} | Rules: {', '.join(listing['jurisdictions'])}[/dim]")
