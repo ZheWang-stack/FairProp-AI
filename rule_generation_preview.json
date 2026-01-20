@@ -1,0 +1,76 @@
+{
+  "current_count": 45,
+  "additional_federal": 23,
+  "projected_federal_total": 68,
+  "sample_new_rules": [
+    {
+      "id": "FHA-RACE-006",
+      "category": "Race",
+      "trigger_words": [
+        "diverse",
+        "multicultural",
+        "mixed neighborhood",
+        "integrated",
+        "rainbow community",
+        "all backgrounds"
+      ],
+      "severity": "Warning",
+      "legal_basis": "42 U.S.C. § 3604(c)",
+      "suggestion": "Avoid describing racial composition. Focus on property features and location."
+    },
+    {
+      "id": "FHA-RACE-007",
+      "category": "Race",
+      "trigger_words": [
+        "ethnic",
+        "cultural diversity",
+        "minority-majority",
+        "predominantly",
+        "homogeneous"
+      ],
+      "severity": "Warning",
+      "legal_basis": "42 U.S.C. § 3604(c)",
+      "suggestion": "Describe neighborhood amenities without racial or ethnic references."
+    },
+    {
+      "id": "FHA-RACE-008",
+      "category": "Race",
+      "trigger_words": [
+        "white flight",
+        "changing neighborhood",
+        "transitioning area",
+        "gentrifying"
+      ],
+      "severity": "Critical",
+      "legal_basis": "42 U.S.C. § 3604(c)",
+      "suggestion": "Describe development and improvements without racial implications."
+    },
+    {
+      "id": "FHA-RACE-009",
+      "category": "Race",
+      "trigger_words": [
+        "country club",
+        "private club",
+        "members only",
+        "exclusive membership"
+      ],
+      "severity": "Warning",
+      "legal_basis": "42 U.S.C. § 3604(c)",
+      "suggestion": "Describe amenities without exclusionary language."
+    },
+    {
+      "id": "FHA-RELG-005",
+      "category": "Religion",
+      "trigger_words": [
+        "faith-based",
+        "religious community",
+        "believers",
+        "god-fearing",
+        "spiritual"
+      ],
+      "severity": "Warning",
+      "legal_basis": "42 U.S.C. § 3604(c)",
+      "suggestion": "Avoid religious characterizations of residents or community."
+    }
+  ]
+}

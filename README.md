@@ -21,7 +21,7 @@
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ZheWang-stack/FairProp-AI/blob/main/CONTRIBUTING.md)
 
-**100+ Jurisdictions** • **6 Continents** • **20+ Languages** • **Neuro-Symbolic AI**
+**300+ Rules** • **100+ Jurisdictions** • **1000+ Triggers** • **Neuro-Symbolic AI**
 
 🇺🇸 🇨🇦 🇦🇺 🇪🇺 🇬🇧
 *Supporting Multi-Jurisdictional Compliance (US, Canada, EU, Australia, UK)*
@@ -40,7 +40,7 @@
 
 <table>
 <tr>
-<td align="center"><b>🇺🇸 North America</b><br/>53 jurisdictions</td>
+<td align="center"><b>🇺🇸 North America</b><br/>180 rules (15 states + 20 cities)</td>
 <td align="center"><b>🇪🇺 Europe</b><br/>18 countries</td>
 <td align="center"><b>🌏 Asia-Pacific</b><br/>12 regions</td>
 </tr>

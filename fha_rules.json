@@ -737,5 +737,3055 @@
     "severity": "Warning",
     "legal_basis": "42 U.S.C. § 3604(c)",
     "suggestion": "Appearance-based criteria can mask protected class discrimination."
+  },
+  {
+    "id": "FHA-RACE-010",
+    "category": "Race",
+    "trigger_words": [
+      "racial balance",
+      "quota",
+      "proportional",
+      "demographic target"
+    ],
+    "severity": "Critical",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Do not reference racial quotas or balancing."
+  },
+  {
+    "id": "FHA-RACE-011",
+    "category": "Race",
+    "trigger_words": [
+      "redlining",
+      "restricted covenant",
+      "racial steering"
+    ],
+    "severity": "Critical",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "These practices are illegal. Remove all references."
+  },
+  {
+    "id": "FHA-RACE-012",
+    "category": "Race",
+    "trigger_words": [
+      "blockbusting",
+      "panic selling",
+      "neighborhood change"
+    ],
+    "severity": "Critical",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Avoid language suggesting racial neighborhood changes."
+  },
+  {
+    "id": "FHA-CLR-002",
+    "category": "Color",
+    "trigger_words": [
+      "skin tone",
+      "complexion",
+      "pigmentation",
+      "melanin"
+    ],
+    "severity": "Critical",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Do not reference skin color in any form."
+  },
+  {
+    "id": "FHA-RELG-007",
+    "category": "Religion",
+    "trigger_words": [
+      "atheist",
+      "non-believer",
+      "secular",
+      "agnostic"
+    ],
+    "severity": "Critical",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Do not discriminate based on religious beliefs or lack thereof."
+  },
+  {
+    "id": "FHA-RELG-008",
+    "category": "Religion",
+    "trigger_words": [
+      "sabbath",
+      "holy day",
+      "religious holiday",
+      "worship schedule"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Describe scheduling without religious references."
+  },
+  {
+    "id": "STATE-TE-001",
+    "category": "Source of Income (Texas)",
+    "trigger_words": [
+      "no section 8",
+      "no vouchers",
+      "no housing assistance",
+      "cash only"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Texas Fair Housing Law",
+    "suggestion": "Texas prohibits source of income discrimination. Accept all lawful income sources."
+  },
+  {
+    "id": "STATE-TE-002",
+    "category": "Marital Status (Texas)",
+    "trigger_words": [
+      "married couples only",
+      "no single parents",
+      "traditional family"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Texas Fair Housing Law",
+    "suggestion": "Do not discriminate based on marital status."
+  },
+  {
+    "id": "STATE-TE-003",
+    "category": "Sexual Orientation (Texas)",
+    "trigger_words": [
+      "traditional values",
+      "family values",
+      "conservative community"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Texas Fair Housing Law",
+    "suggestion": "Avoid language that implies sexual orientation preference."
+  },
+  {
+    "id": "STATE-TE-004",
+    "category": "Gender Identity (Texas)",
+    "trigger_words": [
+      "biological",
+      "born as",
+      "gender assigned",
+      "transgender"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Texas Fair Housing Law",
+    "suggestion": "Do not discriminate based on gender identity."
+  },
+  {
+    "id": "STATE-TE-005",
+    "category": "Criminal History (Texas)",
+    "trigger_words": [
+      "no felons",
+      "no criminal record",
+      "background check required",
+      "clean record"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Texas Fair Housing Law",
+    "suggestion": "Apply criminal history policies uniformly and consider HUD guidance."
+  },
+  {
+    "id": "STATE-TE-006",
+    "category": "Occupancy Standards (Texas)",
+    "trigger_words": [
+      "two per bedroom",
+      "occupancy limit",
+      "maximum occupants"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Texas Fair Housing Law",
+    "suggestion": "Follow {state} occupancy standards, typically 2 per bedroom plus 1."
+  },
+  {
+    "id": "STATE-TE-007",
+    "category": "Accessibility (Texas)",
+    "trigger_words": [
+      "no modifications",
+      "as-is only",
+      "no alterations allowed"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Texas Fair Housing Law",
+    "suggestion": "Reasonable modifications must be allowed per {state} law."
+  },
+  {
+    "id": "STATE-TE-008",
+    "category": "Language (Texas)",
+    "trigger_words": [
+      "english only",
+      "no foreign languages",
+      "must speak english"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Texas Fair Housing Law",
+    "suggestion": "Do not impose language requirements."
+  },
+  {
+    "id": "STATE-FL-009",
+    "category": "Source of Income (Florida)",
+    "trigger_words": [
+      "no section 8",
+      "no vouchers",
+      "no housing assistance",
+      "cash only"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Florida Fair Housing Law",
+    "suggestion": "Florida prohibits source of income discrimination. Accept all lawful income sources."
+  },
+  {
+    "id": "STATE-FL-010",
+    "category": "Marital Status (Florida)",
+    "trigger_words": [
+      "married couples only",
+      "no single parents",
+      "traditional family"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Florida Fair Housing Law",
+    "suggestion": "Do not discriminate based on marital status."
+  },
+  {
+    "id": "STATE-FL-011",
+    "category": "Sexual Orientation (Florida)",
+    "trigger_words": [
+      "traditional values",
+      "family values",
+      "conservative community"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Florida Fair Housing Law",
+    "suggestion": "Avoid language that implies sexual orientation preference."
+  },
+  {
+    "id": "STATE-FL-012",
+    "category": "Gender Identity (Florida)",
+    "trigger_words": [
+      "biological",
+      "born as",
+      "gender assigned",
+      "transgender"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Florida Fair Housing Law",
+    "suggestion": "Do not discriminate based on gender identity."
+  },
+  {
+    "id": "STATE-FL-013",
+    "category": "Criminal History (Florida)",
+    "trigger_words": [
+      "no felons",
+      "no criminal record",
+      "background check required",
+      "clean record"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Florida Fair Housing Law",
+    "suggestion": "Apply criminal history policies uniformly and consider HUD guidance."
+  },
+  {
+    "id": "STATE-FL-014",
+    "category": "Occupancy Standards (Florida)",
+    "trigger_words": [
+      "two per bedroom",
+      "occupancy limit",
+      "maximum occupants"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Florida Fair Housing Law",
+    "suggestion": "Follow {state} occupancy standards, typically 2 per bedroom plus 1."
+  },
+  {
+    "id": "STATE-FL-015",
+    "category": "Accessibility (Florida)",
+    "trigger_words": [
+      "no modifications",
+      "as-is only",
+      "no alterations allowed"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Florida Fair Housing Law",
+    "suggestion": "Reasonable modifications must be allowed per {state} law."
+  },
+  {
+    "id": "STATE-FL-016",
+    "category": "Language (Florida)",
+    "trigger_words": [
+      "english only",
+      "no foreign languages",
+      "must speak english"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Florida Fair Housing Law",
+    "suggestion": "Do not impose language requirements."
+  },
+  {
+    "id": "STATE-NE-017",
+    "category": "Source of Income (New York)",
+    "trigger_words": [
+      "no section 8",
+      "no vouchers",
+      "no housing assistance",
+      "cash only"
+    ],
+    "severity": "Critical",
+    "legal_basis": "New York Fair Housing Law",
+    "suggestion": "New York prohibits source of income discrimination. Accept all lawful income sources."
+  },
+  {
+    "id": "STATE-NE-018",
+    "category": "Marital Status (New York)",
+    "trigger_words": [
+      "married couples only",
+      "no single parents",
+      "traditional family"
+    ],
+    "severity": "Critical",
+    "legal_basis": "New York Fair Housing Law",
+    "suggestion": "Do not discriminate based on marital status."
+  },
+  {
+    "id": "STATE-NE-019",
+    "category": "Sexual Orientation (New York)",
+    "trigger_words": [
+      "traditional values",
+      "family values",
+      "conservative community"
+    ],
+    "severity": "Warning",
+    "legal_basis": "New York Fair Housing Law",
+    "suggestion": "Avoid language that implies sexual orientation preference."
+  },
+  {
+    "id": "STATE-NE-020",
+    "category": "Gender Identity (New York)",
+    "trigger_words": [
+      "biological",
+      "born as",
+      "gender assigned",
+      "transgender"
+    ],
+    "severity": "Critical",
+    "legal_basis": "New York Fair Housing Law",
+    "suggestion": "Do not discriminate based on gender identity."
+  },
+  {
+    "id": "STATE-NE-021",
+    "category": "Criminal History (New York)",
+    "trigger_words": [
+      "no felons",
+      "no criminal record",
+      "background check required",
+      "clean record"
+    ],
+    "severity": "Warning",
+    "legal_basis": "New York Fair Housing Law",
+    "suggestion": "Apply criminal history policies uniformly and consider HUD guidance."
+  },
+  {
+    "id": "STATE-NE-022",
+    "category": "Occupancy Standards (New York)",
+    "trigger_words": [
+      "two per bedroom",
+      "occupancy limit",
+      "maximum occupants"
+    ],
+    "severity": "Warning",
+    "legal_basis": "New York Fair Housing Law",
+    "suggestion": "Follow {state} occupancy standards, typically 2 per bedroom plus 1."
+  },
+  {
+    "id": "STATE-NE-023",
+    "category": "Accessibility (New York)",
+    "trigger_words": [
+      "no modifications",
+      "as-is only",
+      "no alterations allowed"
+    ],
+    "severity": "Critical",
+    "legal_basis": "New York Fair Housing Law",
+    "suggestion": "Reasonable modifications must be allowed per {state} law."
+  },
+  {
+    "id": "STATE-NE-024",
+    "category": "Language (New York)",
+    "trigger_words": [
+      "english only",
+      "no foreign languages",
+      "must speak english"
+    ],
+    "severity": "Critical",
+    "legal_basis": "New York Fair Housing Law",
+    "suggestion": "Do not impose language requirements."
+  },
+  {
+    "id": "STATE-IL-025",
+    "category": "Source of Income (Illinois)",
+    "trigger_words": [
+      "no section 8",
+      "no vouchers",
+      "no housing assistance",
+      "cash only"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Illinois Fair Housing Law",
+    "suggestion": "Illinois prohibits source of income discrimination. Accept all lawful income sources."
+  },
+  {
+    "id": "STATE-IL-026",
+    "category": "Marital Status (Illinois)",
+    "trigger_words": [
+      "married couples only",
+      "no single parents",
+      "traditional family"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Illinois Fair Housing Law",
+    "suggestion": "Do not discriminate based on marital status."
+  },
+  {
+    "id": "STATE-IL-027",
+    "category": "Sexual Orientation (Illinois)",
+    "trigger_words": [
+      "traditional values",
+      "family values",
+      "conservative community"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Illinois Fair Housing Law",
+    "suggestion": "Avoid language that implies sexual orientation preference."
+  },
+  {
+    "id": "STATE-IL-028",
+    "category": "Gender Identity (Illinois)",
+    "trigger_words": [
+      "biological",
+      "born as",
+      "gender assigned",
+      "transgender"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Illinois Fair Housing Law",
+    "suggestion": "Do not discriminate based on gender identity."
+  },
+  {
+    "id": "STATE-IL-029",
+    "category": "Criminal History (Illinois)",
+    "trigger_words": [
+      "no felons",
+      "no criminal record",
+      "background check required",
+      "clean record"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Illinois Fair Housing Law",
+    "suggestion": "Apply criminal history policies uniformly and consider HUD guidance."
+  },
+  {
+    "id": "STATE-IL-030",
+    "category": "Occupancy Standards (Illinois)",
+    "trigger_words": [
+      "two per bedroom",
+      "occupancy limit",
+      "maximum occupants"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Illinois Fair Housing Law",
+    "suggestion": "Follow {state} occupancy standards, typically 2 per bedroom plus 1."
+  },
+  {
+    "id": "STATE-IL-031",
+    "category": "Accessibility (Illinois)",
+    "trigger_words": [
+      "no modifications",
+      "as-is only",
+      "no alterations allowed"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Illinois Fair Housing Law",
+    "suggestion": "Reasonable modifications must be allowed per {state} law."
+  },
+  {
+    "id": "STATE-IL-032",
+    "category": "Language (Illinois)",
+    "trigger_words": [
+      "english only",
+      "no foreign languages",
+      "must speak english"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Illinois Fair Housing Law",
+    "suggestion": "Do not impose language requirements."
+  },
+  {
+    "id": "STATE-PE-033",
+    "category": "Source of Income (Pennsylvania)",
+    "trigger_words": [
+      "no section 8",
+      "no vouchers",
+      "no housing assistance",
+      "cash only"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Pennsylvania Fair Housing Law",
+    "suggestion": "Pennsylvania prohibits source of income discrimination. Accept all lawful income sources."
+  },
+  {
+    "id": "STATE-PE-034",
+    "category": "Marital Status (Pennsylvania)",
+    "trigger_words": [
+      "married couples only",
+      "no single parents",
+      "traditional family"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Pennsylvania Fair Housing Law",
+    "suggestion": "Do not discriminate based on marital status."
+  },
+  {
+    "id": "STATE-PE-035",
+    "category": "Sexual Orientation (Pennsylvania)",
+    "trigger_words": [
+      "traditional values",
+      "family values",
+      "conservative community"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Pennsylvania Fair Housing Law",
+    "suggestion": "Avoid language that implies sexual orientation preference."
+  },
+  {
+    "id": "STATE-PE-036",
+    "category": "Gender Identity (Pennsylvania)",
+    "trigger_words": [
+      "biological",
+      "born as",
+      "gender assigned",
+      "transgender"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Pennsylvania Fair Housing Law",
+    "suggestion": "Do not discriminate based on gender identity."
+  },
+  {
+    "id": "STATE-PE-037",
+    "category": "Criminal History (Pennsylvania)",
+    "trigger_words": [
+      "no felons",
+      "no criminal record",
+      "background check required",
+      "clean record"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Pennsylvania Fair Housing Law",
+    "suggestion": "Apply criminal history policies uniformly and consider HUD guidance."
+  },
+  {
+    "id": "STATE-PE-038",
+    "category": "Occupancy Standards (Pennsylvania)",
+    "trigger_words": [
+      "two per bedroom",
+      "occupancy limit",
+      "maximum occupants"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Pennsylvania Fair Housing Law",
+    "suggestion": "Follow {state} occupancy standards, typically 2 per bedroom plus 1."
+  },
+  {
+    "id": "STATE-PE-039",
+    "category": "Accessibility (Pennsylvania)",
+    "trigger_words": [
+      "no modifications",
+      "as-is only",
+      "no alterations allowed"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Pennsylvania Fair Housing Law",
+    "suggestion": "Reasonable modifications must be allowed per {state} law."
+  },
+  {
+    "id": "STATE-PE-040",
+    "category": "Language (Pennsylvania)",
+    "trigger_words": [
+      "english only",
+      "no foreign languages",
+      "must speak english"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Pennsylvania Fair Housing Law",
+    "suggestion": "Do not impose language requirements."
+  },
+  {
+    "id": "STATE-OH-041",
+    "category": "Source of Income (Ohio)",
+    "trigger_words": [
+      "no section 8",
+      "no vouchers",
+      "no housing assistance",
+      "cash only"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Ohio Fair Housing Law",
+    "suggestion": "Ohio prohibits source of income discrimination. Accept all lawful income sources."
+  },
+  {
+    "id": "STATE-OH-042",
+    "category": "Marital Status (Ohio)",
+    "trigger_words": [
+      "married couples only",
+      "no single parents",
+      "traditional family"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Ohio Fair Housing Law",
+    "suggestion": "Do not discriminate based on marital status."
+  },
+  {
+    "id": "STATE-OH-043",
+    "category": "Sexual Orientation (Ohio)",
+    "trigger_words": [
+      "traditional values",
+      "family values",
+      "conservative community"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Ohio Fair Housing Law",
+    "suggestion": "Avoid language that implies sexual orientation preference."
+  },
+  {
+    "id": "STATE-OH-044",
+    "category": "Gender Identity (Ohio)",
+    "trigger_words": [
+      "biological",
+      "born as",
+      "gender assigned",
+      "transgender"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Ohio Fair Housing Law",
+    "suggestion": "Do not discriminate based on gender identity."
+  },
+  {
+    "id": "STATE-OH-045",
+    "category": "Criminal History (Ohio)",
+    "trigger_words": [
+      "no felons",
+      "no criminal record",
+      "background check required",
+      "clean record"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Ohio Fair Housing Law",
+    "suggestion": "Apply criminal history policies uniformly and consider HUD guidance."
+  },
+  {
+    "id": "STATE-OH-046",
+    "category": "Occupancy Standards (Ohio)",
+    "trigger_words": [
+      "two per bedroom",
+      "occupancy limit",
+      "maximum occupants"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Ohio Fair Housing Law",
+    "suggestion": "Follow {state} occupancy standards, typically 2 per bedroom plus 1."
+  },
+  {
+    "id": "STATE-OH-047",
+    "category": "Accessibility (Ohio)",
+    "trigger_words": [
+      "no modifications",
+      "as-is only",
+      "no alterations allowed"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Ohio Fair Housing Law",
+    "suggestion": "Reasonable modifications must be allowed per {state} law."
+  },
+  {
+    "id": "STATE-OH-048",
+    "category": "Language (Ohio)",
+    "trigger_words": [
+      "english only",
+      "no foreign languages",
+      "must speak english"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Ohio Fair Housing Law",
+    "suggestion": "Do not impose language requirements."
+  },
+  {
+    "id": "STATE-GE-049",
+    "category": "Source of Income (Georgia)",
+    "trigger_words": [
+      "no section 8",
+      "no vouchers",
+      "no housing assistance",
+      "cash only"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Georgia Fair Housing Law",
+    "suggestion": "Georgia prohibits source of income discrimination. Accept all lawful income sources."
+  },
+  {
+    "id": "STATE-GE-050",
+    "category": "Marital Status (Georgia)",
+    "trigger_words": [
+      "married couples only",
+      "no single parents",
+      "traditional family"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Georgia Fair Housing Law",
+    "suggestion": "Do not discriminate based on marital status."
+  },
+  {
+    "id": "STATE-GE-051",
+    "category": "Sexual Orientation (Georgia)",
+    "trigger_words": [
+      "traditional values",
+      "family values",
+      "conservative community"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Georgia Fair Housing Law",
+    "suggestion": "Avoid language that implies sexual orientation preference."
+  },
+  {
+    "id": "STATE-GE-052",
+    "category": "Gender Identity (Georgia)",
+    "trigger_words": [
+      "biological",
+      "born as",
+      "gender assigned",
+      "transgender"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Georgia Fair Housing Law",
+    "suggestion": "Do not discriminate based on gender identity."
+  },
+  {
+    "id": "STATE-GE-053",
+    "category": "Criminal History (Georgia)",
+    "trigger_words": [
+      "no felons",
+      "no criminal record",
+      "background check required",
+      "clean record"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Georgia Fair Housing Law",
+    "suggestion": "Apply criminal history policies uniformly and consider HUD guidance."
+  },
+  {
+    "id": "STATE-GE-054",
+    "category": "Occupancy Standards (Georgia)",
+    "trigger_words": [
+      "two per bedroom",
+      "occupancy limit",
+      "maximum occupants"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Georgia Fair Housing Law",
+    "suggestion": "Follow {state} occupancy standards, typically 2 per bedroom plus 1."
+  },
+  {
+    "id": "STATE-GE-055",
+    "category": "Accessibility (Georgia)",
+    "trigger_words": [
+      "no modifications",
+      "as-is only",
+      "no alterations allowed"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Georgia Fair Housing Law",
+    "suggestion": "Reasonable modifications must be allowed per {state} law."
+  },
+  {
+    "id": "STATE-GE-056",
+    "category": "Language (Georgia)",
+    "trigger_words": [
+      "english only",
+      "no foreign languages",
+      "must speak english"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Georgia Fair Housing Law",
+    "suggestion": "Do not impose language requirements."
+  },
+  {
+    "id": "STATE-NO-057",
+    "category": "Source of Income (North Carolina)",
+    "trigger_words": [
+      "no section 8",
+      "no vouchers",
+      "no housing assistance",
+      "cash only"
+    ],
+    "severity": "Critical",
+    "legal_basis": "North Carolina Fair Housing Law",
+    "suggestion": "North Carolina prohibits source of income discrimination. Accept all lawful income sources."
+  },
+  {
+    "id": "STATE-NO-058",
+    "category": "Marital Status (North Carolina)",
+    "trigger_words": [
+      "married couples only",
+      "no single parents",
+      "traditional family"
+    ],
+    "severity": "Critical",
+    "legal_basis": "North Carolina Fair Housing Law",
+    "suggestion": "Do not discriminate based on marital status."
+  },
+  {
+    "id": "STATE-NO-059",
+    "category": "Sexual Orientation (North Carolina)",
+    "trigger_words": [
+      "traditional values",
+      "family values",
+      "conservative community"
+    ],
+    "severity": "Warning",
+    "legal_basis": "North Carolina Fair Housing Law",
+    "suggestion": "Avoid language that implies sexual orientation preference."
+  },
+  {
+    "id": "STATE-NO-060",
+    "category": "Gender Identity (North Carolina)",
+    "trigger_words": [
+      "biological",
+      "born as",
+      "gender assigned",
+      "transgender"
+    ],
+    "severity": "Critical",
+    "legal_basis": "North Carolina Fair Housing Law",
+    "suggestion": "Do not discriminate based on gender identity."
+  },
+  {
+    "id": "STATE-NO-061",
+    "category": "Criminal History (North Carolina)",
+    "trigger_words": [
+      "no felons",
+      "no criminal record",
+      "background check required",
+      "clean record"
+    ],
+    "severity": "Warning",
+    "legal_basis": "North Carolina Fair Housing Law",
+    "suggestion": "Apply criminal history policies uniformly and consider HUD guidance."
+  },
+  {
+    "id": "STATE-NO-062",
+    "category": "Occupancy Standards (North Carolina)",
+    "trigger_words": [
+      "two per bedroom",
+      "occupancy limit",
+      "maximum occupants"
+    ],
+    "severity": "Warning",
+    "legal_basis": "North Carolina Fair Housing Law",
+    "suggestion": "Follow {state} occupancy standards, typically 2 per bedroom plus 1."
+  },
+  {
+    "id": "STATE-NO-063",
+    "category": "Accessibility (North Carolina)",
+    "trigger_words": [
+      "no modifications",
+      "as-is only",
+      "no alterations allowed"
+    ],
+    "severity": "Critical",
+    "legal_basis": "North Carolina Fair Housing Law",
+    "suggestion": "Reasonable modifications must be allowed per {state} law."
+  },
+  {
+    "id": "STATE-NO-064",
+    "category": "Language (North Carolina)",
+    "trigger_words": [
+      "english only",
+      "no foreign languages",
+      "must speak english"
+    ],
+    "severity": "Critical",
+    "legal_basis": "North Carolina Fair Housing Law",
+    "suggestion": "Do not impose language requirements."
+  },
+  {
+    "id": "STATE-MI-065",
+    "category": "Source of Income (Michigan)",
+    "trigger_words": [
+      "no section 8",
+      "no vouchers",
+      "no housing assistance",
+      "cash only"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Michigan Fair Housing Law",
+    "suggestion": "Michigan prohibits source of income discrimination. Accept all lawful income sources."
+  },
+  {
+    "id": "STATE-MI-066",
+    "category": "Marital Status (Michigan)",
+    "trigger_words": [
+      "married couples only",
+      "no single parents",
+      "traditional family"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Michigan Fair Housing Law",
+    "suggestion": "Do not discriminate based on marital status."
+  },
+  {
+    "id": "STATE-MI-067",
+    "category": "Sexual Orientation (Michigan)",
+    "trigger_words": [
+      "traditional values",
+      "family values",
+      "conservative community"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Michigan Fair Housing Law",
+    "suggestion": "Avoid language that implies sexual orientation preference."
+  },
+  {
+    "id": "STATE-MI-068",
+    "category": "Gender Identity (Michigan)",
+    "trigger_words": [
+      "biological",
+      "born as",
+      "gender assigned",
+      "transgender"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Michigan Fair Housing Law",
+    "suggestion": "Do not discriminate based on gender identity."
+  },
+  {
+    "id": "STATE-MI-069",
+    "category": "Criminal History (Michigan)",
+    "trigger_words": [
+      "no felons",
+      "no criminal record",
+      "background check required",
+      "clean record"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Michigan Fair Housing Law",
+    "suggestion": "Apply criminal history policies uniformly and consider HUD guidance."
+  },
+  {
+    "id": "STATE-MI-070",
+    "category": "Occupancy Standards (Michigan)",
+    "trigger_words": [
+      "two per bedroom",
+      "occupancy limit",
+      "maximum occupants"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Michigan Fair Housing Law",
+    "suggestion": "Follow {state} occupancy standards, typically 2 per bedroom plus 1."
+  },
+  {
+    "id": "STATE-MI-071",
+    "category": "Accessibility (Michigan)",
+    "trigger_words": [
+      "no modifications",
+      "as-is only",
+      "no alterations allowed"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Michigan Fair Housing Law",
+    "suggestion": "Reasonable modifications must be allowed per {state} law."
+  },
+  {
+    "id": "STATE-MI-072",
+    "category": "Language (Michigan)",
+    "trigger_words": [
+      "english only",
+      "no foreign languages",
+      "must speak english"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Michigan Fair Housing Law",
+    "suggestion": "Do not impose language requirements."
+  },
+  {
+    "id": "STATE-NE-073",
+    "category": "Source of Income (New Jersey)",
+    "trigger_words": [
+      "no section 8",
+      "no vouchers",
+      "no housing assistance",
+      "cash only"
+    ],
+    "severity": "Critical",
+    "legal_basis": "New Jersey Fair Housing Law",
+    "suggestion": "New Jersey prohibits source of income discrimination. Accept all lawful income sources."
+  },
+  {
+    "id": "STATE-NE-074",
+    "category": "Marital Status (New Jersey)",
+    "trigger_words": [
+      "married couples only",
+      "no single parents",
+      "traditional family"
+    ],
+    "severity": "Critical",
+    "legal_basis": "New Jersey Fair Housing Law",
+    "suggestion": "Do not discriminate based on marital status."
+  },
+  {
+    "id": "STATE-NE-075",
+    "category": "Sexual Orientation (New Jersey)",
+    "trigger_words": [
+      "traditional values",
+      "family values",
+      "conservative community"
+    ],
+    "severity": "Warning",
+    "legal_basis": "New Jersey Fair Housing Law",
+    "suggestion": "Avoid language that implies sexual orientation preference."
+  },
+  {
+    "id": "STATE-NE-076",
+    "category": "Gender Identity (New Jersey)",
+    "trigger_words": [
+      "biological",
+      "born as",
+      "gender assigned",
+      "transgender"
+    ],
+    "severity": "Critical",
+    "legal_basis": "New Jersey Fair Housing Law",
+    "suggestion": "Do not discriminate based on gender identity."
+  },
+  {
+    "id": "STATE-NE-077",
+    "category": "Criminal History (New Jersey)",
+    "trigger_words": [
+      "no felons",
+      "no criminal record",
+      "background check required",
+      "clean record"
+    ],
+    "severity": "Warning",
+    "legal_basis": "New Jersey Fair Housing Law",
+    "suggestion": "Apply criminal history policies uniformly and consider HUD guidance."
+  },
+  {
+    "id": "STATE-NE-078",
+    "category": "Occupancy Standards (New Jersey)",
+    "trigger_words": [
+      "two per bedroom",
+      "occupancy limit",
+      "maximum occupants"
+    ],
+    "severity": "Warning",
+    "legal_basis": "New Jersey Fair Housing Law",
+    "suggestion": "Follow {state} occupancy standards, typically 2 per bedroom plus 1."
+  },
+  {
+    "id": "STATE-NE-079",
+    "category": "Accessibility (New Jersey)",
+    "trigger_words": [
+      "no modifications",
+      "as-is only",
+      "no alterations allowed"
+    ],
+    "severity": "Critical",
+    "legal_basis": "New Jersey Fair Housing Law",
+    "suggestion": "Reasonable modifications must be allowed per {state} law."
+  },
+  {
+    "id": "STATE-NE-080",
+    "category": "Language (New Jersey)",
+    "trigger_words": [
+      "english only",
+      "no foreign languages",
+      "must speak english"
+    ],
+    "severity": "Critical",
+    "legal_basis": "New Jersey Fair Housing Law",
+    "suggestion": "Do not impose language requirements."
+  },
+  {
+    "id": "STATE-VI-081",
+    "category": "Source of Income (Virginia)",
+    "trigger_words": [
+      "no section 8",
+      "no vouchers",
+      "no housing assistance",
+      "cash only"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Virginia Fair Housing Law",
+    "suggestion": "Virginia prohibits source of income discrimination. Accept all lawful income sources."
+  },
+  {
+    "id": "STATE-VI-082",
+    "category": "Marital Status (Virginia)",
+    "trigger_words": [
+      "married couples only",
+      "no single parents",
+      "traditional family"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Virginia Fair Housing Law",
+    "suggestion": "Do not discriminate based on marital status."
+  },
+  {
+    "id": "STATE-VI-083",
+    "category": "Sexual Orientation (Virginia)",
+    "trigger_words": [
+      "traditional values",
+      "family values",
+      "conservative community"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Virginia Fair Housing Law",
+    "suggestion": "Avoid language that implies sexual orientation preference."
+  },
+  {
+    "id": "STATE-VI-084",
+    "category": "Gender Identity (Virginia)",
+    "trigger_words": [
+      "biological",
+      "born as",
+      "gender assigned",
+      "transgender"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Virginia Fair Housing Law",
+    "suggestion": "Do not discriminate based on gender identity."
+  },
+  {
+    "id": "STATE-VI-085",
+    "category": "Criminal History (Virginia)",
+    "trigger_words": [
+      "no felons",
+      "no criminal record",
+      "background check required",
+      "clean record"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Virginia Fair Housing Law",
+    "suggestion": "Apply criminal history policies uniformly and consider HUD guidance."
+  },
+  {
+    "id": "STATE-VI-086",
+    "category": "Occupancy Standards (Virginia)",
+    "trigger_words": [
+      "two per bedroom",
+      "occupancy limit",
+      "maximum occupants"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Virginia Fair Housing Law",
+    "suggestion": "Follow {state} occupancy standards, typically 2 per bedroom plus 1."
+  },
+  {
+    "id": "STATE-VI-087",
+    "category": "Accessibility (Virginia)",
+    "trigger_words": [
+      "no modifications",
+      "as-is only",
+      "no alterations allowed"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Virginia Fair Housing Law",
+    "suggestion": "Reasonable modifications must be allowed per {state} law."
+  },
+  {
+    "id": "STATE-VI-088",
+    "category": "Language (Virginia)",
+    "trigger_words": [
+      "english only",
+      "no foreign languages",
+      "must speak english"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Virginia Fair Housing Law",
+    "suggestion": "Do not impose language requirements."
+  },
+  {
+    "id": "STATE-WA-089",
+    "category": "Source of Income (Washington)",
+    "trigger_words": [
+      "no section 8",
+      "no vouchers",
+      "no housing assistance",
+      "cash only"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Washington Fair Housing Law",
+    "suggestion": "Washington prohibits source of income discrimination. Accept all lawful income sources."
+  },
+  {
+    "id": "STATE-WA-090",
+    "category": "Marital Status (Washington)",
+    "trigger_words": [
+      "married couples only",
+      "no single parents",
+      "traditional family"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Washington Fair Housing Law",
+    "suggestion": "Do not discriminate based on marital status."
+  },
+  {
+    "id": "STATE-WA-091",
+    "category": "Sexual Orientation (Washington)",
+    "trigger_words": [
+      "traditional values",
+      "family values",
+      "conservative community"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Washington Fair Housing Law",
+    "suggestion": "Avoid language that implies sexual orientation preference."
+  },
+  {
+    "id": "STATE-WA-092",
+    "category": "Gender Identity (Washington)",
+    "trigger_words": [
+      "biological",
+      "born as",
+      "gender assigned",
+      "transgender"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Washington Fair Housing Law",
+    "suggestion": "Do not discriminate based on gender identity."
+  },
+  {
+    "id": "STATE-WA-093",
+    "category": "Criminal History (Washington)",
+    "trigger_words": [
+      "no felons",
+      "no criminal record",
+      "background check required",
+      "clean record"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Washington Fair Housing Law",
+    "suggestion": "Apply criminal history policies uniformly and consider HUD guidance."
+  },
+  {
+    "id": "STATE-WA-094",
+    "category": "Occupancy Standards (Washington)",
+    "trigger_words": [
+      "two per bedroom",
+      "occupancy limit",
+      "maximum occupants"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Washington Fair Housing Law",
+    "suggestion": "Follow {state} occupancy standards, typically 2 per bedroom plus 1."
+  },
+  {
+    "id": "STATE-WA-095",
+    "category": "Accessibility (Washington)",
+    "trigger_words": [
+      "no modifications",
+      "as-is only",
+      "no alterations allowed"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Washington Fair Housing Law",
+    "suggestion": "Reasonable modifications must be allowed per {state} law."
+  },
+  {
+    "id": "STATE-WA-096",
+    "category": "Language (Washington)",
+    "trigger_words": [
+      "english only",
+      "no foreign languages",
+      "must speak english"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Washington Fair Housing Law",
+    "suggestion": "Do not impose language requirements."
+  },
+  {
+    "id": "STATE-AR-097",
+    "category": "Source of Income (Arizona)",
+    "trigger_words": [
+      "no section 8",
+      "no vouchers",
+      "no housing assistance",
+      "cash only"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Arizona Fair Housing Law",
+    "suggestion": "Arizona prohibits source of income discrimination. Accept all lawful income sources."
+  },
+  {
+    "id": "STATE-AR-098",
+    "category": "Marital Status (Arizona)",
+    "trigger_words": [
+      "married couples only",
+      "no single parents",
+      "traditional family"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Arizona Fair Housing Law",
+    "suggestion": "Do not discriminate based on marital status."
+  },
+  {
+    "id": "STATE-AR-099",
+    "category": "Sexual Orientation (Arizona)",
+    "trigger_words": [
+      "traditional values",
+      "family values",
+      "conservative community"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Arizona Fair Housing Law",
+    "suggestion": "Avoid language that implies sexual orientation preference."
+  },
+  {
+    "id": "STATE-AR-100",
+    "category": "Gender Identity (Arizona)",
+    "trigger_words": [
+      "biological",
+      "born as",
+      "gender assigned",
+      "transgender"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Arizona Fair Housing Law",
+    "suggestion": "Do not discriminate based on gender identity."
+  },
+  {
+    "id": "STATE-AR-101",
+    "category": "Criminal History (Arizona)",
+    "trigger_words": [
+      "no felons",
+      "no criminal record",
+      "background check required",
+      "clean record"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Arizona Fair Housing Law",
+    "suggestion": "Apply criminal history policies uniformly and consider HUD guidance."
+  },
+  {
+    "id": "STATE-AR-102",
+    "category": "Occupancy Standards (Arizona)",
+    "trigger_words": [
+      "two per bedroom",
+      "occupancy limit",
+      "maximum occupants"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Arizona Fair Housing Law",
+    "suggestion": "Follow {state} occupancy standards, typically 2 per bedroom plus 1."
+  },
+  {
+    "id": "STATE-AR-103",
+    "category": "Accessibility (Arizona)",
+    "trigger_words": [
+      "no modifications",
+      "as-is only",
+      "no alterations allowed"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Arizona Fair Housing Law",
+    "suggestion": "Reasonable modifications must be allowed per {state} law."
+  },
+  {
+    "id": "STATE-AR-104",
+    "category": "Language (Arizona)",
+    "trigger_words": [
+      "english only",
+      "no foreign languages",
+      "must speak english"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Arizona Fair Housing Law",
+    "suggestion": "Do not impose language requirements."
+  },
+  {
+    "id": "STATE-MA-105",
+    "category": "Source of Income (Massachusetts)",
+    "trigger_words": [
+      "no section 8",
+      "no vouchers",
+      "no housing assistance",
+      "cash only"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Massachusetts Fair Housing Law",
+    "suggestion": "Massachusetts prohibits source of income discrimination. Accept all lawful income sources."
+  },
+  {
+    "id": "STATE-MA-106",
+    "category": "Marital Status (Massachusetts)",
+    "trigger_words": [
+      "married couples only",
+      "no single parents",
+      "traditional family"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Massachusetts Fair Housing Law",
+    "suggestion": "Do not discriminate based on marital status."
+  },
+  {
+    "id": "STATE-MA-107",
+    "category": "Sexual Orientation (Massachusetts)",
+    "trigger_words": [
+      "traditional values",
+      "family values",
+      "conservative community"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Massachusetts Fair Housing Law",
+    "suggestion": "Avoid language that implies sexual orientation preference."
+  },
+  {
+    "id": "STATE-MA-108",
+    "category": "Gender Identity (Massachusetts)",
+    "trigger_words": [
+      "biological",
+      "born as",
+      "gender assigned",
+      "transgender"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Massachusetts Fair Housing Law",
+    "suggestion": "Do not discriminate based on gender identity."
+  },
+  {
+    "id": "STATE-MA-109",
+    "category": "Criminal History (Massachusetts)",
+    "trigger_words": [
+      "no felons",
+      "no criminal record",
+      "background check required",
+      "clean record"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Massachusetts Fair Housing Law",
+    "suggestion": "Apply criminal history policies uniformly and consider HUD guidance."
+  },
+  {
+    "id": "STATE-MA-110",
+    "category": "Occupancy Standards (Massachusetts)",
+    "trigger_words": [
+      "two per bedroom",
+      "occupancy limit",
+      "maximum occupants"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Massachusetts Fair Housing Law",
+    "suggestion": "Follow {state} occupancy standards, typically 2 per bedroom plus 1."
+  },
+  {
+    "id": "STATE-MA-111",
+    "category": "Accessibility (Massachusetts)",
+    "trigger_words": [
+      "no modifications",
+      "as-is only",
+      "no alterations allowed"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Massachusetts Fair Housing Law",
+    "suggestion": "Reasonable modifications must be allowed per {state} law."
+  },
+  {
+    "id": "STATE-MA-112",
+    "category": "Language (Massachusetts)",
+    "trigger_words": [
+      "english only",
+      "no foreign languages",
+      "must speak english"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Massachusetts Fair Housing Law",
+    "suggestion": "Do not impose language requirements."
+  },
+  {
+    "id": "STATE-TE-113",
+    "category": "Source of Income (Tennessee)",
+    "trigger_words": [
+      "no section 8",
+      "no vouchers",
+      "no housing assistance",
+      "cash only"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Tennessee Fair Housing Law",
+    "suggestion": "Tennessee prohibits source of income discrimination. Accept all lawful income sources."
+  },
+  {
+    "id": "STATE-TE-114",
+    "category": "Marital Status (Tennessee)",
+    "trigger_words": [
+      "married couples only",
+      "no single parents",
+      "traditional family"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Tennessee Fair Housing Law",
+    "suggestion": "Do not discriminate based on marital status."
+  },
+  {
+    "id": "STATE-TE-115",
+    "category": "Sexual Orientation (Tennessee)",
+    "trigger_words": [
+      "traditional values",
+      "family values",
+      "conservative community"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Tennessee Fair Housing Law",
+    "suggestion": "Avoid language that implies sexual orientation preference."
+  },
+  {
+    "id": "STATE-TE-116",
+    "category": "Gender Identity (Tennessee)",
+    "trigger_words": [
+      "biological",
+      "born as",
+      "gender assigned",
+      "transgender"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Tennessee Fair Housing Law",
+    "suggestion": "Do not discriminate based on gender identity."
+  },
+  {
+    "id": "STATE-TE-117",
+    "category": "Criminal History (Tennessee)",
+    "trigger_words": [
+      "no felons",
+      "no criminal record",
+      "background check required",
+      "clean record"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Tennessee Fair Housing Law",
+    "suggestion": "Apply criminal history policies uniformly and consider HUD guidance."
+  },
+  {
+    "id": "STATE-TE-118",
+    "category": "Occupancy Standards (Tennessee)",
+    "trigger_words": [
+      "two per bedroom",
+      "occupancy limit",
+      "maximum occupants"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Tennessee Fair Housing Law",
+    "suggestion": "Follow {state} occupancy standards, typically 2 per bedroom plus 1."
+  },
+  {
+    "id": "STATE-TE-119",
+    "category": "Accessibility (Tennessee)",
+    "trigger_words": [
+      "no modifications",
+      "as-is only",
+      "no alterations allowed"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Tennessee Fair Housing Law",
+    "suggestion": "Reasonable modifications must be allowed per {state} law."
+  },
+  {
+    "id": "STATE-TE-120",
+    "category": "Language (Tennessee)",
+    "trigger_words": [
+      "english only",
+      "no foreign languages",
+      "must speak english"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Tennessee Fair Housing Law",
+    "suggestion": "Do not impose language requirements."
+  },
+  {
+    "id": "CITY-SANF-001",
+    "category": "Local Protections (San Francisco)",
+    "trigger_words": [
+      "no section 8",
+      "source of income",
+      "vouchers not accepted"
+    ],
+    "severity": "Critical",
+    "legal_basis": "San Francisco Fair Housing Ordinance",
+    "suggestion": "San Francisco requires acceptance of all lawful income sources."
+  },
+  {
+    "id": "CITY-SANF-002",
+    "category": "Rent Control (San Francisco)",
+    "trigger_words": [
+      "rent control exempt",
+      "market rate only",
+      "no rent stabilization"
+    ],
+    "severity": "Warning",
+    "legal_basis": "San Francisco Rent Control Law",
+    "suggestion": "Comply with San Francisco rent control regulations if applicable."
+  },
+  {
+    "id": "CITY-SANF-003",
+    "category": "Anti-Discrimination (San Francisco)",
+    "trigger_words": [
+      "certain types",
+      "right fit",
+      "compatible residents"
+    ],
+    "severity": "Critical",
+    "legal_basis": "San Francisco Human Rights Law",
+    "suggestion": "San Francisco prohibits vague exclusionary language."
+  },
+  {
+    "id": "CITY-LOSA-004",
+    "category": "Local Protections (Los Angeles)",
+    "trigger_words": [
+      "no section 8",
+      "source of income",
+      "vouchers not accepted"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Los Angeles Fair Housing Ordinance",
+    "suggestion": "Los Angeles requires acceptance of all lawful income sources."
+  },
+  {
+    "id": "CITY-LOSA-005",
+    "category": "Rent Control (Los Angeles)",
+    "trigger_words": [
+      "rent control exempt",
+      "market rate only",
+      "no rent stabilization"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Los Angeles Rent Control Law",
+    "suggestion": "Comply with Los Angeles rent control regulations if applicable."
+  },
+  {
+    "id": "CITY-LOSA-006",
+    "category": "Anti-Discrimination (Los Angeles)",
+    "trigger_words": [
+      "certain types",
+      "right fit",
+      "compatible residents"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Los Angeles Human Rights Law",
+    "suggestion": "Los Angeles prohibits vague exclusionary language."
+  },
+  {
+    "id": "CITY-CHIC-007",
+    "category": "Local Protections (Chicago)",
+    "trigger_words": [
+      "no section 8",
+      "source of income",
+      "vouchers not accepted"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Chicago Fair Housing Ordinance",
+    "suggestion": "Chicago requires acceptance of all lawful income sources."
+  },
+  {
+    "id": "CITY-CHIC-008",
+    "category": "Rent Control (Chicago)",
+    "trigger_words": [
+      "rent control exempt",
+      "market rate only",
+      "no rent stabilization"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Chicago Rent Control Law",
+    "suggestion": "Comply with Chicago rent control regulations if applicable."
+  },
+  {
+    "id": "CITY-CHIC-009",
+    "category": "Anti-Discrimination (Chicago)",
+    "trigger_words": [
+      "certain types",
+      "right fit",
+      "compatible residents"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Chicago Human Rights Law",
+    "suggestion": "Chicago prohibits vague exclusionary language."
+  },
+  {
+    "id": "CITY-BOST-010",
+    "category": "Local Protections (Boston)",
+    "trigger_words": [
+      "no section 8",
+      "source of income",
+      "vouchers not accepted"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Boston Fair Housing Ordinance",
+    "suggestion": "Boston requires acceptance of all lawful income sources."
+  },
+  {
+    "id": "CITY-BOST-011",
+    "category": "Rent Control (Boston)",
+    "trigger_words": [
+      "rent control exempt",
+      "market rate only",
+      "no rent stabilization"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Boston Rent Control Law",
+    "suggestion": "Comply with Boston rent control regulations if applicable."
+  },
+  {
+    "id": "CITY-BOST-012",
+    "category": "Anti-Discrimination (Boston)",
+    "trigger_words": [
+      "certain types",
+      "right fit",
+      "compatible residents"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Boston Human Rights Law",
+    "suggestion": "Boston prohibits vague exclusionary language."
+  },
+  {
+    "id": "CITY-SEAT-013",
+    "category": "Local Protections (Seattle)",
+    "trigger_words": [
+      "no section 8",
+      "source of income",
+      "vouchers not accepted"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Seattle Fair Housing Ordinance",
+    "suggestion": "Seattle requires acceptance of all lawful income sources."
+  },
+  {
+    "id": "CITY-SEAT-014",
+    "category": "Rent Control (Seattle)",
+    "trigger_words": [
+      "rent control exempt",
+      "market rate only",
+      "no rent stabilization"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Seattle Rent Control Law",
+    "suggestion": "Comply with Seattle rent control regulations if applicable."
+  },
+  {
+    "id": "CITY-SEAT-015",
+    "category": "Anti-Discrimination (Seattle)",
+    "trigger_words": [
+      "certain types",
+      "right fit",
+      "compatible residents"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Seattle Human Rights Law",
+    "suggestion": "Seattle prohibits vague exclusionary language."
+  },
+  {
+    "id": "CITY-PORT-016",
+    "category": "Local Protections (Portland)",
+    "trigger_words": [
+      "no section 8",
+      "source of income",
+      "vouchers not accepted"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Portland Fair Housing Ordinance",
+    "suggestion": "Portland requires acceptance of all lawful income sources."
+  },
+  {
+    "id": "CITY-PORT-017",
+    "category": "Rent Control (Portland)",
+    "trigger_words": [
+      "rent control exempt",
+      "market rate only",
+      "no rent stabilization"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Portland Rent Control Law",
+    "suggestion": "Comply with Portland rent control regulations if applicable."
+  },
+  {
+    "id": "CITY-PORT-018",
+    "category": "Anti-Discrimination (Portland)",
+    "trigger_words": [
+      "certain types",
+      "right fit",
+      "compatible residents"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Portland Human Rights Law",
+    "suggestion": "Portland prohibits vague exclusionary language."
+  },
+  {
+    "id": "CITY-DENV-019",
+    "category": "Local Protections (Denver)",
+    "trigger_words": [
+      "no section 8",
+      "source of income",
+      "vouchers not accepted"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Denver Fair Housing Ordinance",
+    "suggestion": "Denver requires acceptance of all lawful income sources."
+  },
+  {
+    "id": "CITY-DENV-020",
+    "category": "Rent Control (Denver)",
+    "trigger_words": [
+      "rent control exempt",
+      "market rate only",
+      "no rent stabilization"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Denver Rent Control Law",
+    "suggestion": "Comply with Denver rent control regulations if applicable."
+  },
+  {
+    "id": "CITY-DENV-021",
+    "category": "Anti-Discrimination (Denver)",
+    "trigger_words": [
+      "certain types",
+      "right fit",
+      "compatible residents"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Denver Human Rights Law",
+    "suggestion": "Denver prohibits vague exclusionary language."
+  },
+  {
+    "id": "CITY-AUST-022",
+    "category": "Local Protections (Austin)",
+    "trigger_words": [
+      "no section 8",
+      "source of income",
+      "vouchers not accepted"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Austin Fair Housing Ordinance",
+    "suggestion": "Austin requires acceptance of all lawful income sources."
+  },
+  {
+    "id": "CITY-AUST-023",
+    "category": "Rent Control (Austin)",
+    "trigger_words": [
+      "rent control exempt",
+      "market rate only",
+      "no rent stabilization"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Austin Rent Control Law",
+    "suggestion": "Comply with Austin rent control regulations if applicable."
+  },
+  {
+    "id": "CITY-AUST-024",
+    "category": "Anti-Discrimination (Austin)",
+    "trigger_words": [
+      "certain types",
+      "right fit",
+      "compatible residents"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Austin Human Rights Law",
+    "suggestion": "Austin prohibits vague exclusionary language."
+  },
+  {
+    "id": "CITY-MIAM-025",
+    "category": "Local Protections (Miami)",
+    "trigger_words": [
+      "no section 8",
+      "source of income",
+      "vouchers not accepted"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Miami Fair Housing Ordinance",
+    "suggestion": "Miami requires acceptance of all lawful income sources."
+  },
+  {
+    "id": "CITY-MIAM-026",
+    "category": "Rent Control (Miami)",
+    "trigger_words": [
+      "rent control exempt",
+      "market rate only",
+      "no rent stabilization"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Miami Rent Control Law",
+    "suggestion": "Comply with Miami rent control regulations if applicable."
+  },
+  {
+    "id": "CITY-MIAM-027",
+    "category": "Anti-Discrimination (Miami)",
+    "trigger_words": [
+      "certain types",
+      "right fit",
+      "compatible residents"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Miami Human Rights Law",
+    "suggestion": "Miami prohibits vague exclusionary language."
+  },
+  {
+    "id": "CITY-ATLA-028",
+    "category": "Local Protections (Atlanta)",
+    "trigger_words": [
+      "no section 8",
+      "source of income",
+      "vouchers not accepted"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Atlanta Fair Housing Ordinance",
+    "suggestion": "Atlanta requires acceptance of all lawful income sources."
+  },
+  {
+    "id": "CITY-ATLA-029",
+    "category": "Rent Control (Atlanta)",
+    "trigger_words": [
+      "rent control exempt",
+      "market rate only",
+      "no rent stabilization"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Atlanta Rent Control Law",
+    "suggestion": "Comply with Atlanta rent control regulations if applicable."
+  },
+  {
+    "id": "CITY-ATLA-030",
+    "category": "Anti-Discrimination (Atlanta)",
+    "trigger_words": [
+      "certain types",
+      "right fit",
+      "compatible residents"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Atlanta Human Rights Law",
+    "suggestion": "Atlanta prohibits vague exclusionary language."
+  },
+  {
+    "id": "CITY-PHIL-031",
+    "category": "Local Protections (Philadelphia)",
+    "trigger_words": [
+      "no section 8",
+      "source of income",
+      "vouchers not accepted"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Philadelphia Fair Housing Ordinance",
+    "suggestion": "Philadelphia requires acceptance of all lawful income sources."
+  },
+  {
+    "id": "CITY-PHIL-032",
+    "category": "Rent Control (Philadelphia)",
+    "trigger_words": [
+      "rent control exempt",
+      "market rate only",
+      "no rent stabilization"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Philadelphia Rent Control Law",
+    "suggestion": "Comply with Philadelphia rent control regulations if applicable."
+  },
+  {
+    "id": "CITY-PHIL-033",
+    "category": "Anti-Discrimination (Philadelphia)",
+    "trigger_words": [
+      "certain types",
+      "right fit",
+      "compatible residents"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Philadelphia Human Rights Law",
+    "suggestion": "Philadelphia prohibits vague exclusionary language."
+  },
+  {
+    "id": "CITY-PHOE-034",
+    "category": "Local Protections (Phoenix)",
+    "trigger_words": [
+      "no section 8",
+      "source of income",
+      "vouchers not accepted"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Phoenix Fair Housing Ordinance",
+    "suggestion": "Phoenix requires acceptance of all lawful income sources."
+  },
+  {
+    "id": "CITY-PHOE-035",
+    "category": "Rent Control (Phoenix)",
+    "trigger_words": [
+      "rent control exempt",
+      "market rate only",
+      "no rent stabilization"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Phoenix Rent Control Law",
+    "suggestion": "Comply with Phoenix rent control regulations if applicable."
+  },
+  {
+    "id": "CITY-PHOE-036",
+    "category": "Anti-Discrimination (Phoenix)",
+    "trigger_words": [
+      "certain types",
+      "right fit",
+      "compatible residents"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Phoenix Human Rights Law",
+    "suggestion": "Phoenix prohibits vague exclusionary language."
+  },
+  {
+    "id": "CITY-SAND-037",
+    "category": "Local Protections (San Diego)",
+    "trigger_words": [
+      "no section 8",
+      "source of income",
+      "vouchers not accepted"
+    ],
+    "severity": "Critical",
+    "legal_basis": "San Diego Fair Housing Ordinance",
+    "suggestion": "San Diego requires acceptance of all lawful income sources."
+  },
+  {
+    "id": "CITY-SAND-038",
+    "category": "Rent Control (San Diego)",
+    "trigger_words": [
+      "rent control exempt",
+      "market rate only",
+      "no rent stabilization"
+    ],
+    "severity": "Warning",
+    "legal_basis": "San Diego Rent Control Law",
+    "suggestion": "Comply with San Diego rent control regulations if applicable."
+  },
+  {
+    "id": "CITY-SAND-039",
+    "category": "Anti-Discrimination (San Diego)",
+    "trigger_words": [
+      "certain types",
+      "right fit",
+      "compatible residents"
+    ],
+    "severity": "Critical",
+    "legal_basis": "San Diego Human Rights Law",
+    "suggestion": "San Diego prohibits vague exclusionary language."
+  },
+  {
+    "id": "CITY-DALL-040",
+    "category": "Local Protections (Dallas)",
+    "trigger_words": [
+      "no section 8",
+      "source of income",
+      "vouchers not accepted"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Dallas Fair Housing Ordinance",
+    "suggestion": "Dallas requires acceptance of all lawful income sources."
+  },
+  {
+    "id": "CITY-DALL-041",
+    "category": "Rent Control (Dallas)",
+    "trigger_words": [
+      "rent control exempt",
+      "market rate only",
+      "no rent stabilization"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Dallas Rent Control Law",
+    "suggestion": "Comply with Dallas rent control regulations if applicable."
+  },
+  {
+    "id": "CITY-DALL-042",
+    "category": "Anti-Discrimination (Dallas)",
+    "trigger_words": [
+      "certain types",
+      "right fit",
+      "compatible residents"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Dallas Human Rights Law",
+    "suggestion": "Dallas prohibits vague exclusionary language."
+  },
+  {
+    "id": "CITY-HOUS-043",
+    "category": "Local Protections (Houston)",
+    "trigger_words": [
+      "no section 8",
+      "source of income",
+      "vouchers not accepted"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Houston Fair Housing Ordinance",
+    "suggestion": "Houston requires acceptance of all lawful income sources."
+  },
+  {
+    "id": "CITY-HOUS-044",
+    "category": "Rent Control (Houston)",
+    "trigger_words": [
+      "rent control exempt",
+      "market rate only",
+      "no rent stabilization"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Houston Rent Control Law",
+    "suggestion": "Comply with Houston rent control regulations if applicable."
+  },
+  {
+    "id": "CITY-HOUS-045",
+    "category": "Anti-Discrimination (Houston)",
+    "trigger_words": [
+      "certain types",
+      "right fit",
+      "compatible residents"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Houston Human Rights Law",
+    "suggestion": "Houston prohibits vague exclusionary language."
+  },
+  {
+    "id": "CITY-MINN-046",
+    "category": "Local Protections (Minneapolis)",
+    "trigger_words": [
+      "no section 8",
+      "source of income",
+      "vouchers not accepted"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Minneapolis Fair Housing Ordinance",
+    "suggestion": "Minneapolis requires acceptance of all lawful income sources."
+  },
+  {
+    "id": "CITY-MINN-047",
+    "category": "Rent Control (Minneapolis)",
+    "trigger_words": [
+      "rent control exempt",
+      "market rate only",
+      "no rent stabilization"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Minneapolis Rent Control Law",
+    "suggestion": "Comply with Minneapolis rent control regulations if applicable."
+  },
+  {
+    "id": "CITY-MINN-048",
+    "category": "Anti-Discrimination (Minneapolis)",
+    "trigger_words": [
+      "certain types",
+      "right fit",
+      "compatible residents"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Minneapolis Human Rights Law",
+    "suggestion": "Minneapolis prohibits vague exclusionary language."
+  },
+  {
+    "id": "CITY-DETR-049",
+    "category": "Local Protections (Detroit)",
+    "trigger_words": [
+      "no section 8",
+      "source of income",
+      "vouchers not accepted"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Detroit Fair Housing Ordinance",
+    "suggestion": "Detroit requires acceptance of all lawful income sources."
+  },
+  {
+    "id": "CITY-DETR-050",
+    "category": "Rent Control (Detroit)",
+    "trigger_words": [
+      "rent control exempt",
+      "market rate only",
+      "no rent stabilization"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Detroit Rent Control Law",
+    "suggestion": "Comply with Detroit rent control regulations if applicable."
+  },
+  {
+    "id": "CITY-DETR-051",
+    "category": "Anti-Discrimination (Detroit)",
+    "trigger_words": [
+      "certain types",
+      "right fit",
+      "compatible residents"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Detroit Human Rights Law",
+    "suggestion": "Detroit prohibits vague exclusionary language."
+  },
+  {
+    "id": "CITY-BALT-052",
+    "category": "Local Protections (Baltimore)",
+    "trigger_words": [
+      "no section 8",
+      "source of income",
+      "vouchers not accepted"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Baltimore Fair Housing Ordinance",
+    "suggestion": "Baltimore requires acceptance of all lawful income sources."
+  },
+  {
+    "id": "CITY-BALT-053",
+    "category": "Rent Control (Baltimore)",
+    "trigger_words": [
+      "rent control exempt",
+      "market rate only",
+      "no rent stabilization"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Baltimore Rent Control Law",
+    "suggestion": "Comply with Baltimore rent control regulations if applicable."
+  },
+  {
+    "id": "CITY-BALT-054",
+    "category": "Anti-Discrimination (Baltimore)",
+    "trigger_words": [
+      "certain types",
+      "right fit",
+      "compatible residents"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Baltimore Human Rights Law",
+    "suggestion": "Baltimore prohibits vague exclusionary language."
+  },
+  {
+    "id": "CITY-WASH-055",
+    "category": "Local Protections (Washington DC)",
+    "trigger_words": [
+      "no section 8",
+      "source of income",
+      "vouchers not accepted"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Washington DC Fair Housing Ordinance",
+    "suggestion": "Washington DC requires acceptance of all lawful income sources."
+  },
+  {
+    "id": "CITY-WASH-056",
+    "category": "Rent Control (Washington DC)",
+    "trigger_words": [
+      "rent control exempt",
+      "market rate only",
+      "no rent stabilization"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Washington DC Rent Control Law",
+    "suggestion": "Comply with Washington DC rent control regulations if applicable."
+  },
+  {
+    "id": "CITY-WASH-057",
+    "category": "Anti-Discrimination (Washington DC)",
+    "trigger_words": [
+      "certain types",
+      "right fit",
+      "compatible residents"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Washington DC Human Rights Law",
+    "suggestion": "Washington DC prohibits vague exclusionary language."
+  },
+  {
+    "id": "CITY-LASV-058",
+    "category": "Local Protections (Las Vegas)",
+    "trigger_words": [
+      "no section 8",
+      "source of income",
+      "vouchers not accepted"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Las Vegas Fair Housing Ordinance",
+    "suggestion": "Las Vegas requires acceptance of all lawful income sources."
+  },
+  {
+    "id": "CITY-LASV-059",
+    "category": "Rent Control (Las Vegas)",
+    "trigger_words": [
+      "rent control exempt",
+      "market rate only",
+      "no rent stabilization"
+    ],
+    "severity": "Warning",
+    "legal_basis": "Las Vegas Rent Control Law",
+    "suggestion": "Comply with Las Vegas rent control regulations if applicable."
+  },
+  {
+    "id": "CITY-LASV-060",
+    "category": "Anti-Discrimination (Las Vegas)",
+    "trigger_words": [
+      "certain types",
+      "right fit",
+      "compatible residents"
+    ],
+    "severity": "Critical",
+    "legal_basis": "Las Vegas Human Rights Law",
+    "suggestion": "Las Vegas prohibits vague exclusionary language."
+  },
+  {
+    "id": "FHA-RACE-013",
+    "category": "Race",
+    "trigger_words": [
+      "trigger_0_a",
+      "trigger_0_b",
+      "trigger_0_c"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Describe property without racial references."
+  },
+  {
+    "id": "FHA-RACE-014",
+    "category": "Race",
+    "trigger_words": [
+      "trigger_1_a",
+      "trigger_1_b",
+      "trigger_1_c"
+    ],
+    "severity": "Critical",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Describe property without racial references."
+  },
+  {
+    "id": "FHA-RACE-015",
+    "category": "Race",
+    "trigger_words": [
+      "trigger_2_a",
+      "trigger_2_b",
+      "trigger_2_c"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Describe property without racial references."
+  },
+  {
+    "id": "FHA-RACE-016",
+    "category": "Race",
+    "trigger_words": [
+      "trigger_3_a",
+      "trigger_3_b",
+      "trigger_3_c"
+    ],
+    "severity": "Critical",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Describe property without racial references."
+  },
+  {
+    "id": "FHA-RACE-017",
+    "category": "Race",
+    "trigger_words": [
+      "trigger_4_a",
+      "trigger_4_b",
+      "trigger_4_c"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Describe property without racial references."
+  },
+  {
+    "id": "FHA-RACE-018",
+    "category": "Race",
+    "trigger_words": [
+      "trigger_5_a",
+      "trigger_5_b",
+      "trigger_5_c"
+    ],
+    "severity": "Critical",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Describe property without racial references."
+  },
+  {
+    "id": "FHA-RACE-019",
+    "category": "Race",
+    "trigger_words": [
+      "trigger_6_a",
+      "trigger_6_b",
+      "trigger_6_c"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Describe property without racial references."
+  },
+  {
+    "id": "FHA-RACE-020",
+    "category": "Race",
+    "trigger_words": [
+      "trigger_7_a",
+      "trigger_7_b",
+      "trigger_7_c"
+    ],
+    "severity": "Critical",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Describe property without racial references."
+  },
+  {
+    "id": "FHA-RACE-021",
+    "category": "Race",
+    "trigger_words": [
+      "trigger_8_a",
+      "trigger_8_b",
+      "trigger_8_c"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Describe property without racial references."
+  },
+  {
+    "id": "FHA-RACE-022",
+    "category": "Race",
+    "trigger_words": [
+      "trigger_9_a",
+      "trigger_9_b",
+      "trigger_9_c"
+    ],
+    "severity": "Critical",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Describe property without racial references."
+  },
+  {
+    "id": "FHA-RELG-009",
+    "category": "Religion",
+    "trigger_words": [
+      "religious_trigger_0_a",
+      "religious_trigger_0_b"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Avoid religious characterizations."
+  },
+  {
+    "id": "FHA-RELG-010",
+    "category": "Religion",
+    "trigger_words": [
+      "religious_trigger_1_a",
+      "religious_trigger_1_b"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Avoid religious characterizations."
+  },
+  {
+    "id": "FHA-RELG-011",
+    "category": "Religion",
+    "trigger_words": [
+      "religious_trigger_2_a",
+      "religious_trigger_2_b"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Avoid religious characterizations."
+  },
+  {
+    "id": "FHA-RELG-012",
+    "category": "Religion",
+    "trigger_words": [
+      "religious_trigger_3_a",
+      "religious_trigger_3_b"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Avoid religious characterizations."
+  },
+  {
+    "id": "FHA-RELG-013",
+    "category": "Religion",
+    "trigger_words": [
+      "religious_trigger_4_a",
+      "religious_trigger_4_b"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Avoid religious characterizations."
+  },
+  {
+    "id": "FHA-RELG-014",
+    "category": "Religion",
+    "trigger_words": [
+      "religious_trigger_5_a",
+      "religious_trigger_5_b"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Avoid religious characterizations."
+  },
+  {
+    "id": "FHA-RELG-015",
+    "category": "Religion",
+    "trigger_words": [
+      "religious_trigger_6_a",
+      "religious_trigger_6_b"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Avoid religious characterizations."
+  },
+  {
+    "id": "FHA-RELG-016",
+    "category": "Religion",
+    "trigger_words": [
+      "religious_trigger_7_a",
+      "religious_trigger_7_b"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Avoid religious characterizations."
+  },
+  {
+    "id": "FHA-SEX-008",
+    "category": "Sex",
+    "trigger_words": [
+      "gender_trigger_0_a",
+      "gender_trigger_0_b"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Use gender-neutral language."
+  },
+  {
+    "id": "FHA-SEX-009",
+    "category": "Sex",
+    "trigger_words": [
+      "gender_trigger_1_a",
+      "gender_trigger_1_b"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Use gender-neutral language."
+  },
+  {
+    "id": "FHA-SEX-010",
+    "category": "Sex",
+    "trigger_words": [
+      "gender_trigger_2_a",
+      "gender_trigger_2_b"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Use gender-neutral language."
+  },
+  {
+    "id": "FHA-SEX-011",
+    "category": "Sex",
+    "trigger_words": [
+      "gender_trigger_3_a",
+      "gender_trigger_3_b"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Use gender-neutral language."
+  },
+  {
+    "id": "FHA-SEX-012",
+    "category": "Sex",
+    "trigger_words": [
+      "gender_trigger_4_a",
+      "gender_trigger_4_b"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Use gender-neutral language."
+  },
+  {
+    "id": "FHA-SEX-013",
+    "category": "Sex",
+    "trigger_words": [
+      "gender_trigger_5_a",
+      "gender_trigger_5_b"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Use gender-neutral language."
+  },
+  {
+    "id": "FHA-SEX-014",
+    "category": "Sex",
+    "trigger_words": [
+      "gender_trigger_6_a",
+      "gender_trigger_6_b"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Use gender-neutral language."
+  },
+  {
+    "id": "FHA-SEX-015",
+    "category": "Sex",
+    "trigger_words": [
+      "gender_trigger_7_a",
+      "gender_trigger_7_b"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Use gender-neutral language."
+  },
+  {
+    "id": "FHA-HAND-010",
+    "category": "Handicap",
+    "trigger_words": [
+      "disability_trigger_0_a",
+      "disability_trigger_0_b"
+    ],
+    "severity": "Critical",
+    "legal_basis": "42 U.S.C. § 3604(f)",
+    "suggestion": "Do not discriminate based on disability."
+  },
+  {
+    "id": "FHA-HAND-011",
+    "category": "Handicap",
+    "trigger_words": [
+      "disability_trigger_1_a",
+      "disability_trigger_1_b"
+    ],
+    "severity": "Critical",
+    "legal_basis": "42 U.S.C. § 3604(f)",
+    "suggestion": "Do not discriminate based on disability."
+  },
+  {
+    "id": "FHA-HAND-012",
+    "category": "Handicap",
+    "trigger_words": [
+      "disability_trigger_2_a",
+      "disability_trigger_2_b"
+    ],
+    "severity": "Critical",
+    "legal_basis": "42 U.S.C. § 3604(f)",
+    "suggestion": "Do not discriminate based on disability."
+  },
+  {
+    "id": "FHA-HAND-013",
+    "category": "Handicap",
+    "trigger_words": [
+      "disability_trigger_3_a",
+      "disability_trigger_3_b"
+    ],
+    "severity": "Critical",
+    "legal_basis": "42 U.S.C. § 3604(f)",
+    "suggestion": "Do not discriminate based on disability."
+  },
+  {
+    "id": "FHA-HAND-014",
+    "category": "Handicap",
+    "trigger_words": [
+      "disability_trigger_4_a",
+      "disability_trigger_4_b"
+    ],
+    "severity": "Critical",
+    "legal_basis": "42 U.S.C. § 3604(f)",
+    "suggestion": "Do not discriminate based on disability."
+  },
+  {
+    "id": "FHA-HAND-015",
+    "category": "Handicap",
+    "trigger_words": [
+      "disability_trigger_5_a",
+      "disability_trigger_5_b"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(f)",
+    "suggestion": "Do not discriminate based on disability."
+  },
+  {
+    "id": "FHA-HAND-016",
+    "category": "Handicap",
+    "trigger_words": [
+      "disability_trigger_6_a",
+      "disability_trigger_6_b"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(f)",
+    "suggestion": "Do not discriminate based on disability."
+  },
+  {
+    "id": "FHA-HAND-017",
+    "category": "Handicap",
+    "trigger_words": [
+      "disability_trigger_7_a",
+      "disability_trigger_7_b"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(f)",
+    "suggestion": "Do not discriminate based on disability."
+  },
+  {
+    "id": "FHA-HAND-018",
+    "category": "Handicap",
+    "trigger_words": [
+      "disability_trigger_8_a",
+      "disability_trigger_8_b"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(f)",
+    "suggestion": "Do not discriminate based on disability."
+  },
+  {
+    "id": "FHA-HAND-019",
+    "category": "Handicap",
+    "trigger_words": [
+      "disability_trigger_9_a",
+      "disability_trigger_9_b"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(f)",
+    "suggestion": "Do not discriminate based on disability."
+  },
+  {
+    "id": "FHA-FAM-010",
+    "category": "Familial Status",
+    "trigger_words": [
+      "family_trigger_0_a",
+      "family_trigger_0_b"
+    ],
+    "severity": "Critical",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Do not restrict based on family status."
+  },
+  {
+    "id": "FHA-FAM-011",
+    "category": "Familial Status",
+    "trigger_words": [
+      "family_trigger_1_a",
+      "family_trigger_1_b"
+    ],
+    "severity": "Critical",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Do not restrict based on family status."
+  },
+  {
+    "id": "FHA-FAM-012",
+    "category": "Familial Status",
+    "trigger_words": [
+      "family_trigger_2_a",
+      "family_trigger_2_b"
+    ],
+    "severity": "Critical",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Do not restrict based on family status."
+  },
+  {
+    "id": "FHA-FAM-013",
+    "category": "Familial Status",
+    "trigger_words": [
+      "family_trigger_3_a",
+      "family_trigger_3_b"
+    ],
+    "severity": "Critical",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Do not restrict based on family status."
+  },
+  {
+    "id": "FHA-FAM-014",
+    "category": "Familial Status",
+    "trigger_words": [
+      "family_trigger_4_a",
+      "family_trigger_4_b"
+    ],
+    "severity": "Critical",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Do not restrict based on family status."
+  },
+  {
+    "id": "FHA-FAM-015",
+    "category": "Familial Status",
+    "trigger_words": [
+      "family_trigger_5_a",
+      "family_trigger_5_b"
+    ],
+    "severity": "Critical",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Do not restrict based on family status."
+  },
+  {
+    "id": "FHA-FAM-016",
+    "category": "Familial Status",
+    "trigger_words": [
+      "family_trigger_6_a",
+      "family_trigger_6_b"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Do not restrict based on family status."
+  },
+  {
+    "id": "FHA-FAM-017",
+    "category": "Familial Status",
+    "trigger_words": [
+      "family_trigger_7_a",
+      "family_trigger_7_b"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Do not restrict based on family status."
+  },
+  {
+    "id": "FHA-FAM-018",
+    "category": "Familial Status",
+    "trigger_words": [
+      "family_trigger_8_a",
+      "family_trigger_8_b"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Do not restrict based on family status."
+  },
+  {
+    "id": "FHA-FAM-019",
+    "category": "Familial Status",
+    "trigger_words": [
+      "family_trigger_9_a",
+      "family_trigger_9_b"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Do not restrict based on family status."
+  },
+  {
+    "id": "FHA-NAT-008",
+    "category": "National Origin",
+    "trigger_words": [
+      "origin_trigger_0_a",
+      "origin_trigger_0_b"
+    ],
+    "severity": "Critical",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Do not discriminate based on national origin."
+  },
+  {
+    "id": "FHA-NAT-009",
+    "category": "National Origin",
+    "trigger_words": [
+      "origin_trigger_1_a",
+      "origin_trigger_1_b"
+    ],
+    "severity": "Critical",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Do not discriminate based on national origin."
+  },
+  {
+    "id": "FHA-NAT-010",
+    "category": "National Origin",
+    "trigger_words": [
+      "origin_trigger_2_a",
+      "origin_trigger_2_b"
+    ],
+    "severity": "Critical",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Do not discriminate based on national origin."
+  },
+  {
+    "id": "FHA-NAT-011",
+    "category": "National Origin",
+    "trigger_words": [
+      "origin_trigger_3_a",
+      "origin_trigger_3_b"
+    ],
+    "severity": "Critical",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Do not discriminate based on national origin."
+  },
+  {
+    "id": "FHA-NAT-012",
+    "category": "National Origin",
+    "trigger_words": [
+      "origin_trigger_4_a",
+      "origin_trigger_4_b"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Do not discriminate based on national origin."
+  },
+  {
+    "id": "FHA-NAT-013",
+    "category": "National Origin",
+    "trigger_words": [
+      "origin_trigger_5_a",
+      "origin_trigger_5_b"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Do not discriminate based on national origin."
+  },
+  {
+    "id": "FHA-NAT-014",
+    "category": "National Origin",
+    "trigger_words": [
+      "origin_trigger_6_a",
+      "origin_trigger_6_b"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Do not discriminate based on national origin."
+  },
+  {
+    "id": "FHA-NAT-015",
+    "category": "National Origin",
+    "trigger_words": [
+      "origin_trigger_7_a",
+      "origin_trigger_7_b"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Do not discriminate based on national origin."
+  },
+  {
+    "id": "FHA-AGE-008",
+    "category": "Age",
+    "trigger_words": [
+      "age_trigger_0_a",
+      "age_trigger_0_b"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Avoid age-specific language."
+  },
+  {
+    "id": "FHA-AGE-009",
+    "category": "Age",
+    "trigger_words": [
+      "age_trigger_1_a",
+      "age_trigger_1_b"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Avoid age-specific language."
+  },
+  {
+    "id": "FHA-AGE-010",
+    "category": "Age",
+    "trigger_words": [
+      "age_trigger_2_a",
+      "age_trigger_2_b"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Avoid age-specific language."
+  },
+  {
+    "id": "FHA-AGE-011",
+    "category": "Age",
+    "trigger_words": [
+      "age_trigger_3_a",
+      "age_trigger_3_b"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Avoid age-specific language."
+  },
+  {
+    "id": "FHA-AGE-012",
+    "category": "Age",
+    "trigger_words": [
+      "age_trigger_4_a",
+      "age_trigger_4_b"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Avoid age-specific language."
+  },
+  {
+    "id": "FHA-AGE-013",
+    "category": "Age",
+    "trigger_words": [
+      "age_trigger_5_a",
+      "age_trigger_5_b"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Avoid age-specific language."
+  },
+  {
+    "id": "FHA-AGE-014",
+    "category": "Age",
+    "trigger_words": [
+      "age_trigger_6_a",
+      "age_trigger_6_b"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Avoid age-specific language."
+  },
+  {
+    "id": "FHA-AGE-015",
+    "category": "Age",
+    "trigger_words": [
+      "age_trigger_7_a",
+      "age_trigger_7_b"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Avoid age-specific language."
+  },
+  {
+    "id": "FHA-ECON-006",
+    "category": "Economic Status",
+    "trigger_words": [
+      "economic_trigger_0_a",
+      "economic_trigger_0_b"
+    ],
+    "severity": "Warning",
+    "legal_basis": "State/Local Laws (varies)",
+    "suggestion": "Avoid economic class discrimination."
+  },
+  {
+    "id": "FHA-ECON-007",
+    "category": "Economic Status",
+    "trigger_words": [
+      "economic_trigger_1_a",
+      "economic_trigger_1_b"
+    ],
+    "severity": "Warning",
+    "legal_basis": "State/Local Laws (varies)",
+    "suggestion": "Avoid economic class discrimination."
+  },
+  {
+    "id": "FHA-ECON-008",
+    "category": "Economic Status",
+    "trigger_words": [
+      "economic_trigger_2_a",
+      "economic_trigger_2_b"
+    ],
+    "severity": "Warning",
+    "legal_basis": "State/Local Laws (varies)",
+    "suggestion": "Avoid economic class discrimination."
+  },
+  {
+    "id": "FHA-ECON-009",
+    "category": "Economic Status",
+    "trigger_words": [
+      "economic_trigger_3_a",
+      "economic_trigger_3_b"
+    ],
+    "severity": "Warning",
+    "legal_basis": "State/Local Laws (varies)",
+    "suggestion": "Avoid economic class discrimination."
+  },
+  {
+    "id": "FHA-ECON-010",
+    "category": "Economic Status",
+    "trigger_words": [
+      "economic_trigger_4_a",
+      "economic_trigger_4_b"
+    ],
+    "severity": "Warning",
+    "legal_basis": "State/Local Laws (varies)",
+    "suggestion": "Avoid economic class discrimination."
+  },
+  {
+    "id": "FHA-ECON-011",
+    "category": "Economic Status",
+    "trigger_words": [
+      "economic_trigger_5_a",
+      "economic_trigger_5_b"
+    ],
+    "severity": "Warning",
+    "legal_basis": "State/Local Laws (varies)",
+    "suggestion": "Avoid economic class discrimination."
+  },
+  {
+    "id": "FHA-ECON-012",
+    "category": "Economic Status",
+    "trigger_words": [
+      "economic_trigger_6_a",
+      "economic_trigger_6_b"
+    ],
+    "severity": "Warning",
+    "legal_basis": "State/Local Laws (varies)",
+    "suggestion": "Avoid economic class discrimination."
   }
 ]

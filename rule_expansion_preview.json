@@ -1,0 +1,62 @@
+{
+  "expansion_summary": {
+    "age_rules": 5,
+    "total_new_trigger_words": 39
+  },
+  "sample_rules": [
+    {
+      "id": "FHA-AGE-001",
+      "category": "Age",
+      "trigger_words": [
+        "young professionals",
+        "millennials",
+        "gen z",
+        "recent grads",
+        "young adults",
+        "20s-30s",
+        "under 40",
+        "youthful",
+        "energetic crowd",
+        "fresh graduates"
+      ],
+      "severity": "Warning",
+      "legal_basis": "42 U.S.C. § 3604(c)",
+      "suggestion": "Describe property features without age-specific language. Use 'professionals' or 'working individuals'."
+    },
+    {
+      "id": "FHA-AGE-002",
+      "category": "Age",
+      "trigger_words": [
+        "seniors only",
+        "55+",
+        "62+",
+        "retirees",
+        "golden years",
+        "mature adults",
+        "elderly",
+        "senior living",
+        "retirement community",
+        "age-restricted"
+      ],
+      "severity": "Critical",
+      "legal_basis": "42 U.S.C. § 3607(b)",
+      "suggestion": "If not a qualified HOPA community, remove age restrictions. If qualified, ensure proper documentation."
+    },
+    {
+      "id": "FHA-AGE-003",
+      "category": "Age",
+      "trigger_words": [
+        "no students",
+        "no college kids",
+        "professional tenants only",
+        "established professionals",
+        "career-focused",
+        "post-college",
+        "working adults"
+      ],
+      "severity": "Warning",
+      "legal_basis": "42 U.S.C. § 3604(c)",
+      "suggestion": "Student status can correlate with age. Use 'quiet environment' or 'professional setting' instead."
+    }
+  ]
+}
