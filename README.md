@@ -16,7 +16,7 @@
 
 [![Compliance](https://img.shields.io/badge/Compliance-HUD--FHA-blue)](https://www.hud.gov/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/ZheWang-stack/FairProp-AI/actions)
+[![Build Status](https://github.com/ZheWang-stack/FairProp-AI/actions/workflows/main.yml/badge.svg)](https://github.com/ZheWang-stack/FairProp-AI/actions/workflows/main.yml)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ZheWang-stack/FairProp-AI/blob/main/CONTRIBUTING.md)
@@ -30,7 +30,7 @@
 
 > **Powered by [FairProp Inspector](https://github.com/ZheWang-stack/FairProp-Inspector): Our open-source, edge-native compliance engine.**
 
-[Features](#-features) • [Quick Start](#-quick-start) • [Documentation](#-documentation) • [API](#-rest-api) • [Contributing](#-contributing)
+[Features](#-features) • [Quick Start](#-quick-start) • [Real World Examples](examples/real_world_cases.md) • [Documentation](#-documentation) • [API](#-rest-api) • [Contributing](#-contributing)
 
 </div>
 
