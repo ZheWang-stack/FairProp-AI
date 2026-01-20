@@ -74,3 +74,5 @@ Thumbs.db
 
 # Distribution / packaging
 *.whl
+deploy_key_fairprop
+deploy_key_fairprop.pub

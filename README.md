@@ -28,6 +28,8 @@
 
 ![FairProp Dashboard Demo](assets/demo.png)
 
+> **Powered by [FairProp Inspector](https://github.com/ZheWang-stack/FairProp-Inspector): Our open-source, edge-native compliance engine.**
+
 [Features](#-features) • [Quick Start](#-quick-start) • [Documentation](#-documentation) • [API](#-rest-api) • [Contributing](#-contributing)
 
 </div>
