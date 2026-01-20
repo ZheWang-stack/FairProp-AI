@@ -145,6 +145,7 @@ _i18n_instance = None
 
 def get_i18n(language: str = 'en') -> I18n:
     """Get or create global i18n instance."""
+    # pylint: disable=global-statement
     global _i18n_instance
     if _i18n_instance is None or _i18n_instance.language != language:
         _i18n_instance = I18n(language)

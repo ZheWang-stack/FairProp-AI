@@ -6,12 +6,11 @@ import hashlib
 from typing import List, Dict, Any, Union, TypedDict
 from functools import lru_cache
 
-# Fallback for fuzzy matching
+import difflib
 try:
     from thefuzz import fuzz
     HAS_THEFUZZ = True
 except ImportError:
-    import difflib
     HAS_THEFUZZ = False
 
 # OCR
@@ -291,7 +290,7 @@ class FairHousingAuditor:
                         with open(full_path, 'r', encoding='utf-8') as f:
                             jurisdiction_rules = json.load(f)
                             all_rules.extend(jurisdiction_rules)
-                            logger.info(f"Loaded {len(jurisdiction_rules)} rules for {jurisdiction}")
+                            logger.info("Loaded %d rules for %s", len(jurisdiction_rules), jurisdiction)
                     except Exception as e:
                         logger.warning("Failed to load %s rules: %s", jurisdiction, e)
                 else:
@@ -329,7 +328,7 @@ class FairHousingAuditor:
         return hashlib.sha256(cache_input.encode('utf-8')).hexdigest()
     
     @lru_cache(maxsize=1000)
-    def _scan_text_cached(self, text_hash: str, text: str) -> AuditReport:
+    def _scan_text_cached(self, _text_hash: str, text: str) -> AuditReport:
         """
         Internal cached version of scan_text.
         
@@ -421,7 +420,7 @@ class FairHousingAuditor:
                                         flagged_items.append(item)
                                         flagged_rule_ids.add(rule_id)
                     except Exception as e:
-                        logger.warning(f"Semantic search failed: {e}")
+                        logger.warning("Semantic search failed: %s", e)
 
         # 3. Neural Guardrail (Intent/Steering Detection via Zero-Shot)
         if self.model_manager.has_ai and self.model_manager.guardrail_pipeline:
@@ -455,7 +454,7 @@ class FairHousingAuditor:
                         # Break after finding significant automated flag to avoid noise
                         break
                 except Exception as e:
-                    logger.warning(f"Neural guardrail failed: {e}")
+                    logger.warning("Neural guardrail failed: %s", e)
 
         # 4. Scoring
         for item in flagged_items:
@@ -475,7 +474,7 @@ class FairHousingAuditor:
         else:
             return difflib.SequenceMatcher(None, rule_word, text_word).ratio() >= self.fuzz_threshold
 
-    def _create_flag(self, rule: Dict[str, Any], trigger: str, found: str) -> FlaggedItem:
+    def _create_flag(self, rule: Dict[str, Any], _trigger: str, found: str) -> FlaggedItem:
         return {
             "id": rule["id"],
             "category": rule["category"],

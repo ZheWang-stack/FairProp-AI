@@ -23,7 +23,7 @@ class AuditTrail:
         """
         self.storage_dir = Path(storage_dir)
         self.storage_dir.mkdir(exist_ok=True)
-        logger.info(f"Audit trail initialized at {self.storage_dir}")
+        logger.info("Audit trail initialized at %s", self.storage_dir)
     
     def create_audit_record(
         self,
@@ -77,7 +77,7 @@ class AuditTrail:
         # Save to disk
         self._save_record(record)
         
-        logger.info(f"Created audit record {audit_id}")
+        logger.info("Created audit record %s", audit_id)
         return record
     
     def _hash_text(self, text: str) -> str:
@@ -151,7 +151,7 @@ class AuditTrail:
                     if self.verify_record(record):
                         return record
                     else:
-                        logger.warning(f"Record {audit_id} failed integrity check")
+                        logger.warning("Record %s failed integrity check", audit_id)
                         return None
         
         return None
@@ -197,11 +197,11 @@ class AuditTrail:
         """
         record = self.get_record(audit_id)
         if not record:
-            logger.error(f"Record {audit_id} not found")
+            logger.error("Record %s not found", audit_id)
             return None
         
         try:
-            from fpdf import FPDF
+            from fpdf import FPDF # pylint: disable=import-error
             
             pdf = FPDF()
             pdf.add_page()
@@ -256,9 +256,9 @@ class AuditTrail:
                 output_path = f"compliance_certificate_{audit_id}.pdf"
             
             pdf.output(output_path)
-            logger.info(f"Generated certificate: {output_path}")
+            logger.info("Generated certificate: %s", output_path)
             return output_path
             
         except Exception as e:
-            logger.error(f"Failed to generate certificate: {e}")
+            logger.error("Failed to generate certificate: %s", e)
             return None

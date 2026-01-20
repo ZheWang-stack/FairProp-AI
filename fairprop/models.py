@@ -49,7 +49,7 @@ class ModelManager:
     def sentence_transformer(self):
         if not self._has_ai: return None
         if self._sentence_transformer is None:
-            from sentence_transformers import SentenceTransformer
+            from sentence_transformers import SentenceTransformer # pylint: disable=import-error
             logger.info("Loading SentenceTransformer model...")
             self._sentence_transformer = SentenceTransformer('all-MiniLM-L6-v2')
         return self._sentence_transformer
@@ -58,7 +58,7 @@ class ModelManager:
     def chroma_client(self):
         if not self._has_ai: return None
         if self._chroma_client is None:
-            import chromadb
+            import chromadb # pylint: disable=import-error
             logger.info("Initializing ChromaDB client...")
             self._chroma_client = chromadb.Client()
         return self._chroma_client
@@ -108,7 +108,7 @@ class ModelManager:
     def fixer_pipeline(self):
         if not self._has_ai: return None
         if self._fixer_pipeline is None:
-            from transformers import pipeline
+            from transformers import pipeline # pylint: disable=import-error
             logger.info("Loading Generator model (flan-t5-small)...")
             try:
                 self._fixer_pipeline = pipeline("text2text-generation", model="google/flan-t5-small")
@@ -121,7 +121,7 @@ class ModelManager:
     def guardrail_pipeline(self):
         if not self._has_ai: return None
         if self._guardrail_pipeline is None:
-            from transformers import pipeline
+            from transformers import pipeline # pylint: disable=import-error
             logger.info("Loading Neural Guardrail (Zero-Shot based on facebook/bart-large-mnli)...")
             try:
                 self._guardrail_pipeline = pipeline("zero-shot-classification", model="facebook/bart-large-mnli")

@@ -1,3 +1,4 @@
+# pylint: disable=import-error
 import typer
 import os
 
@@ -24,7 +25,7 @@ def scan(
     else:
         content = text
 
-    console.print(Panel(f"[bold blue]Scanning content...[/bold blue]"))
+    console.print(Panel("[bold blue]Scanning content...[/bold blue]"))
     
     try:
         auditor = FairHousingAuditor(rules_path=rules, jurisdictions=jurisdiction or [])

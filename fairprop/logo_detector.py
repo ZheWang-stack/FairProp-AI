@@ -1,3 +1,4 @@
+# pylint: disable=import-error
 import cv2
 import numpy as np
 import logging
