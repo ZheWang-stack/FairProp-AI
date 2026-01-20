@@ -27,7 +27,6 @@ setup(
         "numpy",
         "fastapi",
         "uvicorn",
-        "uvicorn",
         "pydantic",
         "httpx",
     ],

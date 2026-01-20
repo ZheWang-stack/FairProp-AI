@@ -112,12 +112,15 @@ def audit_listing(auditor: FairHousingAuditor, listing: Dict):
                 f"'{flag['found_word']}'",
                 flag.get('suggestion', 'Remove or rephrase.')
             )
-        
+
         console.print(table)
-        
+
         # AI Fix Suggestion (Simulated for demo if AI not active, or real if available)
         # Note: In a real app, you would verify auditor.model_manager.has_ai
-        console.print("[italic]🤖 AI Suggestion:[/italic] Consider rewriting to focus on property features rather than tenant characteristics.")
+        console.print(
+            "[italic]🤖 AI Suggestion:[/italic] "
+            "Consider rewriting to focus on property features rather than tenant characteristics."
+        )
 
 if __name__ == "__main__":
     run_platform_audit()
