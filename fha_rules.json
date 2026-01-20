@@ -7,7 +7,13 @@
       "caucasian",
       "non-white",
       "colored",
-      "segregated"
+      "segregated",
+      "whites preferred",
+      "no minorities",
+      "european descent",
+      "anglo-saxon",
+      "nordic",
+      "aryan"
     ],
     "severity": "Critical",
     "legal_basis": "42 U.S.C. § 3604(c)",
@@ -20,7 +26,11 @@
       "exclusive neighborhood",
       "private community",
       "gated area",
-      "certain types of people"
+      "certain types of people",
+      "select clientele",
+      "prestigious residents",
+      "elite community",
+      "upscale demographics"
     ],
     "severity": "Warning",
     "legal_basis": "42 U.S.C. § 3604(c)",
@@ -32,11 +42,62 @@
     "trigger_words": [
       "integrated neighborhood",
       "racially balanced",
-      "minority neighborhood"
+      "minority neighborhood",
+      "diverse community",
+      "multicultural area",
+      "ethnic diversity"
     ],
     "severity": "Warning",
     "legal_basis": "42 U.S.C. § 3604(c)",
     "suggestion": "Describe the property's location without reference to the racial composition of the area."
+  },
+  {
+    "id": "FHA-RACE-004",
+    "category": "Race",
+    "trigger_words": [
+      "segregated",
+      "restricted",
+      "homogenous",
+      "uniform community",
+      "traditional residents",
+      "established families"
+    ],
+    "severity": "Critical",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "This property is located in an inclusive community open to all."
+  },
+  {
+    "id": "FHA-RACE-005",
+    "category": "Race",
+    "trigger_words": [
+      "traditional neighborhood",
+      "stable community",
+      "vibrant culture",
+      "urban character",
+      "inner city",
+      "suburban feel",
+      "country club atmosphere"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Describe the physical characteristics of the neighborhood."
+  },
+  {
+    "id": "FHA-CLR-001",
+    "category": "Color",
+    "trigger_words": [
+      "whites only",
+      "non-blacks",
+      "lighter skin preferred",
+      "no blacks",
+      "no african americans",
+      "fair-skinned",
+      "light complexion",
+      "pale skin"
+    ],
+    "severity": "Critical",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "All prospective tenants are welcome regardless of skin color."
   },
   {
     "id": "FHA-RELG-001",
@@ -47,7 +108,11 @@
       "jewish community",
       "church nearby",
       "synagogue within walking distance",
-      "christians preferred"
+      "christians preferred",
+      "bible-believing",
+      "god-fearing",
+      "faith-based community",
+      "religious values"
     ],
     "severity": "Critical",
     "legal_basis": "42 U.S.C. § 3604(c)",
@@ -60,11 +125,45 @@
       "temple nearby",
       "mosque within blocks",
       "parish",
-      "religious neighborhood"
+      "religious neighborhood",
+      "cathedral district",
+      "near chapel",
+      "prayer room available"
     ],
     "severity": "Warning",
     "legal_basis": "42 U.S.C. § 3604(c)",
     "suggestion": "State the property is 'centrally located' or 'near various services'."
+  },
+  {
+    "id": "FHA-RELG-003",
+    "category": "Religion",
+    "trigger_words": [
+      "shabbat elevator",
+      "kosher kitchen",
+      "proximity to parochial school",
+      "halal-friendly",
+      "islamic center nearby",
+      "buddhist temple",
+      "hindu mandir"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Highlight property features like 'dual sinks' or 'specialty amenities' without religious labels."
+  },
+  {
+    "id": "FHA-RELG-004",
+    "category": "Religion",
+    "trigger_words": [
+      "no religious icons",
+      "secular building",
+      "quiet sunday",
+      "sabbath observant",
+      "prayer-friendly",
+      "meditation space"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Focus on building policies like 'standard decor guidelines' or 'noise-reduced environment'."
   },
   {
     "id": "FHA-SEX-001",
@@ -74,7 +173,12 @@
       "female preferred",
       "bachelor pad",
       "gentleman's estate",
-      "perfect for a lady"
+      "perfect for a lady",
+      "men's residence",
+      "women-only",
+      "girls' apartment",
+      "guys' place",
+      "bro pad"
     ],
     "severity": "Critical",
     "legal_basis": "42 U.S.C. § 3604(c)",
@@ -86,7 +190,11 @@
     "trigger_words": [
       "mother-in-law suite",
       "man cave",
-      "she-shed"
+      "she-shed",
+      "master bedroom",
+      "maid's quarters",
+      "gentleman's study",
+      "ladies' powder room"
     ],
     "severity": "Warning",
     "legal_basis": "42 U.S.C. § 3604(c)",
@@ -98,11 +206,46 @@
     "trigger_words": [
       "single woman",
       "businessman",
-      "bachelor"
+      "bachelor",
+      "career woman",
+      "working mom",
+      "housewife",
+      "stay-at-home dad"
     ],
     "severity": "Warning",
     "legal_basis": "42 U.S.C. § 3604(c)",
     "suggestion": "Focus on the property's suitability for 'professional lifestyle' or 'convenient living'."
+  },
+  {
+    "id": "FHA-SEX-004",
+    "category": "Sex",
+    "trigger_words": [
+      "great for moms",
+      "paternity leave",
+      "soccer mom",
+      "working father",
+      "maternity-friendly",
+      "dad's garage"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Use terms like 'busy parents' or 'commuters' if targeting lifestyle, but avoid gender specifics."
+  },
+  {
+    "id": "FHA-SEX-005",
+    "category": "Sex",
+    "trigger_words": [
+      "waitress",
+      "stewardess",
+      "handyman",
+      "policeman",
+      "fireman",
+      "mailman",
+      "cleaning lady"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Use gender-neutral occupation titles like 'server', 'flight attendant', or 'maintenance professional'."
   },
   {
     "id": "FHA-HAND-001",
@@ -111,7 +254,13 @@
       "not wheelchair accessible",
       "no disabled",
       "must be able-bodied",
-      "healthy tenants only"
+      "healthy tenants only",
+      "physically fit",
+      "no handicapped",
+      "able to climb stairs",
+      "mobility required",
+      "no wheelchairs",
+      "walking ability needed"
     ],
     "severity": "Critical",
     "legal_basis": "42 U.S.C. § 3604(f)",
@@ -123,7 +272,10 @@
     "trigger_words": [
       "no service animals",
       "no pets (including service animals)",
-      "no emotional support dogs"
+      "no emotional support dogs",
+      "no assistance animals",
+      "no therapy dogs",
+      "pet-free (no exceptions)"
     ],
     "severity": "Critical",
     "legal_basis": "42 U.S.C. § 3604(f)(3)(B)",
@@ -135,11 +287,60 @@
     "trigger_words": [
       "walking distance",
       "steps from",
-      "stroll to"
+      "stroll to",
+      "short walk",
+      "easy walk",
+      "walkable",
+      "pedestrian-friendly"
     ],
     "severity": "Warning",
     "legal_basis": "24 C.F.R. § 100.75",
     "suggestion": "Use 'conveniently located near' or provide specific distance in miles/blocks."
+  },
+  {
+    "id": "FHA-HAND-004",
+    "category": "Handicap",
+    "trigger_words": [
+      "no ramps allowed",
+      "modifications not permitted",
+      "as-is condition for disabled",
+      "no alterations",
+      "no accessibility changes",
+      "original condition only"
+    ],
+    "severity": "Critical",
+    "legal_basis": "42 U.S.C. § 3604(f)(3)(A)",
+    "suggestion": "Reasonable modifications will be considered in accordance with the law."
+  },
+  {
+    "id": "FHA-HAND-005",
+    "category": "Handicap",
+    "trigger_words": [
+      "handicapped-accessible",
+      "disabled-friendly",
+      "wheelchair-ready",
+      "ada-compliant",
+      "barrier-free",
+      "accessible unit"
+    ],
+    "severity": "Warning",
+    "legal_basis": "24 C.F.R. § 100.205",
+    "suggestion": "Use 'equipped with ADA features' or list specific modifications (e.g., 'level entry')."
+  },
+  {
+    "id": "FHA-HAND-006",
+    "category": "Handicap",
+    "trigger_words": [
+      "active lifestyle required",
+      "fitness-oriented",
+      "athletic community",
+      "sports enthusiasts",
+      "gym rats",
+      "runners' paradise"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(f)",
+    "suggestion": "Describe amenities without implying physical ability requirements."
   },
   {
     "id": "FHA-FAM-001",
@@ -149,7 +350,14 @@
       "adults only",
       "couples preferred",
       "no children",
-      "empty nesters"
+      "empty nesters",
+      "young professionals",
+      "child-free",
+      "18+",
+      "21+",
+      "mature residents only",
+      "no families",
+      "singles or couples"
     ],
     "severity": "Critical",
     "legal_basis": "42 U.S.C. § 3602(k); § 3604(c)",
@@ -161,7 +369,11 @@
     "trigger_words": [
       "quiet for retirees",
       "perfect for seniors",
-      "active adult community"
+      "active adult community",
+      "55+ community",
+      "62+ housing",
+      "senior living",
+      "retirement village"
     ],
     "severity": "Warning",
     "legal_basis": "42 U.S.C. § 3604(c)",
@@ -173,11 +385,61 @@
     "trigger_words": [
       "ideal for a small family",
       "small family welcome",
-      "no more than 2 kids"
+      "no more than 2 kids",
+      "one child maximum",
+      "limited family size",
+      "compact for families"
     ],
     "severity": "Warning",
     "legal_basis": "42 U.S.C. § 3604(c)",
     "suggestion": "State the number of bedrooms/bathrooms and let the applicant decide if it fits their family."
+  },
+  {
+    "id": "FHA-FAM-004",
+    "category": "Familial Status",
+    "trigger_words": [
+      "bachelor",
+      "single person only",
+      "no families",
+      "individual occupancy",
+      "solo living",
+      "one occupant"
+    ],
+    "severity": "Critical",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Suitable for anyone seeking a one-bedroom residence."
+  },
+  {
+    "id": "FHA-FAM-005",
+    "category": "Familial Status",
+    "trigger_words": [
+      "playground nearby",
+      "near schools",
+      "family-friendly",
+      "kid-friendly",
+      "children's play area",
+      "school district",
+      "tot lot"
+    ],
+    "severity": "Warning",
+    "legal_basis": "24 C.F.R. § 100.75",
+    "suggestion": "State 'near educational facilities' or 'local park proximity'."
+  },
+  {
+    "id": "FHA-FAM-006",
+    "category": "Familial Status",
+    "trigger_words": [
+      "daycare",
+      "crib",
+      "playroom",
+      "nursery",
+      "children's room",
+      "kid's bedroom",
+      "baby-friendly"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "List rooms and space (e.g., 'extra bedroom' or 'bonus space')."
   },
   {
     "id": "FHA-NAT-001",
@@ -186,7 +448,12 @@
       "english speakers only",
       "no foreigners",
       "american citizens preferred",
-      "must speak english fluently"
+      "must speak english fluently",
+      "native english",
+      "us citizens only",
+      "no immigrants",
+      "americans only",
+      "born in usa"
     ],
     "severity": "Critical",
     "legal_basis": "42 U.S.C. § 3604(c)",
@@ -199,7 +466,10 @@
       "hispanic neighborhood",
       "little italy",
       "chinatown",
-      "immigrant community"
+      "immigrant community",
+      "ethnic enclave",
+      "cultural district",
+      "foreign quarter"
     ],
     "severity": "Warning",
     "legal_basis": "42 U.S.C. § 3604(c)",
@@ -211,85 +481,14 @@
     "trigger_words": [
       "middle eastern vibe",
       "european charm",
-      "asian influence"
+      "asian influence",
+      "latin flavor",
+      "african aesthetic",
+      "mediterranean style"
     ],
     "severity": "Warning",
     "legal_basis": "42 U.S.C. § 3604(c)",
     "suggestion": "Use architectural terms like 'modern', 'classical', or 'traditional'."
-  },
-  {
-    "id": "FHA-CLR-001",
-    "category": "Color",
-    "trigger_words": [
-      "whites only",
-      "non-blacks",
-      "lighter skin preferred",
-      "no blacks",
-      "no african americans"
-    ],
-    "severity": "Critical",
-    "legal_basis": "42 U.S.C. § 3604(c)",
-    "suggestion": "All prospective tenants are welcome regardless of skin color."
-  },
-  {
-    "id": "FHA-RACE-004",
-    "category": "Race",
-    "trigger_words": [
-      "segregated",
-      "restricted",
-      "homogenous"
-    ],
-    "severity": "Critical",
-    "legal_basis": "42 U.S.C. § 3604(c)",
-    "suggestion": "This property is located in an inclusive community open to all."
-  },
-  {
-    "id": "FHA-FAM-004",
-    "category": "Familial Status",
-    "trigger_words": [
-      "bachelor",
-      "single person only",
-      "no families"
-    ],
-    "severity": "Critical",
-    "legal_basis": "42 U.S.C. § 3604(c)",
-    "suggestion": "Suitable for anyone seeking a one-bedroom residence."
-  },
-  {
-    "id": "FHA-HAND-004",
-    "category": "Handicap",
-    "trigger_words": [
-      "no ramps allowed",
-      "modifications not permitted",
-      "as-is condition for disabled"
-    ],
-    "severity": "Critical",
-    "legal_basis": "42 U.S.C. § 3604(f)(3)(A)",
-    "suggestion": "Reasonable modifications will be considered in accordance with the law."
-  },
-  {
-    "id": "FHA-RELG-003",
-    "category": "Religion",
-    "trigger_words": [
-      "shabbat elevator",
-      "kosher kitchen",
-      "proximity to parochial school"
-    ],
-    "severity": "Warning",
-    "legal_basis": "42 U.S.C. § 3604(c)",
-    "suggestion": "Highlight property features like 'dual sinks' or 'specialty amenities' without religious labels."
-  },
-  {
-    "id": "FHA-SEX-004",
-    "category": "Sex",
-    "trigger_words": [
-      "great for moms",
-      "paternity leave",
-      "soccer mom"
-    ],
-    "severity": "Warning",
-    "legal_basis": "42 U.S.C. § 3604(c)",
-    "suggestion": "Use terms like 'busy parents' or 'commuters' if targeting lifestyle, but avoid gender specifics."
   },
   {
     "id": "FHA-NAT-004",
@@ -298,70 +497,14 @@
       "foreign students",
       "visa holders",
       "non-citizens",
-      "undocumented"
+      "undocumented",
+      "green card holders",
+      "work permit required",
+      "immigration status"
     ],
     "severity": "Critical",
     "legal_basis": "42 U.S.C. § 3604(c)",
     "suggestion": "Ask for standard residency or identification documents required of all applicants."
-  },
-  {
-    "id": "FHA-FAM-005",
-    "category": "Familial Status",
-    "trigger_words": [
-      "playground nearby",
-      "near schools",
-      "family-friendly"
-    ],
-    "severity": "Warning",
-    "legal_basis": "24 C.F.R. § 100.75",
-    "suggestion": "State 'near educational facilities' or 'local park proximity'."
-  },
-  {
-    "id": "FHA-RACE-005",
-    "category": "Race",
-    "trigger_words": [
-      "traditional neighborhood",
-      "stable community",
-      "vibrant culture"
-    ],
-    "severity": "Warning",
-    "legal_basis": "42 U.S.C. § 3604(c)",
-    "suggestion": "Describe the physical characteristics of the neighborhood."
-  },
-  {
-    "id": "FHA-RELG-004",
-    "category": "Religion",
-    "trigger_words": [
-      "no religious icons",
-      "secular building",
-      "quiet sunday"
-    ],
-    "severity": "Warning",
-    "legal_basis": "42 U.S.C. § 3604(c)",
-    "suggestion": "Focus on building policies like 'standard decor guidelines' or 'noise-reduced environment'."
-  },
-  {
-    "id": "FHA-HAND-005",
-    "category": "Handicap",
-    "trigger_words": [
-      "handicapped-accessible",
-      "disabled-friendly"
-    ],
-    "severity": "Warning",
-    "legal_basis": "24 C.F.R. § 100.205",
-    "suggestion": "Use 'equipped with ADA features' or list specific modifications (e.g., 'level entry')."
-  },
-  {
-    "id": "FHA-SEX-005",
-    "category": "Sex",
-    "trigger_words": [
-      "waitress",
-      "stewardess",
-      "handyman"
-    ],
-    "severity": "Warning",
-    "legal_basis": "42 U.S.C. § 3604(c)",
-    "suggestion": "Use gender-neutral occupation titles like 'server', 'flight attendant', or 'maintenance professional'."
   },
   {
     "id": "FHA-NAT-005",
@@ -369,22 +512,230 @@
     "trigger_words": [
       "accent",
       "native speaker",
-      "fluent english"
+      "fluent english",
+      "no accent",
+      "clear english",
+      "american accent"
     ],
     "severity": "Warning",
     "legal_basis": "42 U.S.C. § 3604(c)",
     "suggestion": "Communicate effectively with all applicants."
   },
   {
-    "id": "FHA-FAM-006",
-    "category": "Familial Status",
+    "id": "FHA-AGE-001",
+    "category": "Age",
     "trigger_words": [
-      "daycare",
-      "crib",
-      "playroom"
+      "young professionals",
+      "millennials",
+      "gen z",
+      "recent grads",
+      "young adults",
+      "20s-30s",
+      "under 40",
+      "youthful",
+      "energetic crowd",
+      "fresh graduates",
+      "college grads",
+      "early career"
     ],
     "severity": "Warning",
     "legal_basis": "42 U.S.C. § 3604(c)",
-    "suggestion": "List rooms and space (e.g., 'extra bedroom' or 'bonus space')."
+    "suggestion": "Describe property features without age-specific language. Use 'professionals' or 'working individuals'."
+  },
+  {
+    "id": "FHA-AGE-002",
+    "category": "Age",
+    "trigger_words": [
+      "seniors only",
+      "55+",
+      "62+",
+      "retirees",
+      "golden years",
+      "mature adults",
+      "elderly",
+      "senior living",
+      "retirement community",
+      "age-restricted",
+      "older adults",
+      "silver generation"
+    ],
+    "severity": "Critical",
+    "legal_basis": "42 U.S.C. § 3607(b)",
+    "suggestion": "If not a qualified HOPA community, remove age restrictions. If qualified, ensure proper documentation."
+  },
+  {
+    "id": "FHA-AGE-003",
+    "category": "Age",
+    "trigger_words": [
+      "no students",
+      "no college kids",
+      "professional tenants only",
+      "established professionals",
+      "career-focused",
+      "post-college",
+      "working adults",
+      "no undergrads"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Student status can correlate with age. Use 'quiet environment' or 'professional setting' instead."
+  },
+  {
+    "id": "FHA-AGE-004",
+    "category": "Age",
+    "trigger_words": [
+      "active lifestyle",
+      "dynamic environment",
+      "fast-paced",
+      "vibrant community",
+      "energetic",
+      "youthful atmosphere",
+      "lively scene",
+      "bustling"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "These terms may imply age preference. Describe specific amenities instead."
+  },
+  {
+    "id": "FHA-AGE-005",
+    "category": "Age",
+    "trigger_words": [
+      "quiet for retirees",
+      "peaceful retirement",
+      "senior-friendly",
+      "age-appropriate",
+      "mature community",
+      "settled neighborhood",
+      "tranquil for seniors"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Use 'quiet neighborhood' or 'peaceful setting' without age references."
+  },
+  {
+    "id": "FHA-ECON-001",
+    "category": "Economic Status",
+    "trigger_words": [
+      "no section 8",
+      "no vouchers",
+      "no housing assistance",
+      "no government subsidies",
+      "no welfare",
+      "cash only",
+      "no public assistance",
+      "private pay only"
+    ],
+    "severity": "Critical",
+    "legal_basis": "State/Local Laws (varies)",
+    "suggestion": "Many jurisdictions prohibit source of income discrimination. Accept all lawful sources of income."
+  },
+  {
+    "id": "FHA-ECON-002",
+    "category": "Economic Status",
+    "trigger_words": [
+      "upscale",
+      "luxury",
+      "exclusive",
+      "elite",
+      "prestigious",
+      "high-end",
+      "affluent",
+      "wealthy residents",
+      "upper class"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Describe property features and amenities without economic class implications."
+  },
+  {
+    "id": "FHA-ECON-003",
+    "category": "Economic Status",
+    "trigger_words": [
+      "executive",
+      "professional",
+      "white collar",
+      "corporate",
+      "c-suite",
+      "management level",
+      "salaried professionals"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Focus on property suitability for 'working individuals' without job title requirements."
+  },
+  {
+    "id": "FHA-IMPL-001",
+    "category": "Implicit Bias",
+    "trigger_words": [
+      "urban",
+      "inner city",
+      "downtown area",
+      "city center",
+      "metro area",
+      "core neighborhood"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "These terms can be code words for racial composition. Use specific street names or landmarks."
+  },
+  {
+    "id": "FHA-IMPL-002",
+    "category": "Implicit Bias",
+    "trigger_words": [
+      "safe neighborhood",
+      "low crime",
+      "secure area",
+      "good schools",
+      "desirable location",
+      "up-and-coming"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Provide objective data (crime statistics, school ratings) rather than subjective characterizations."
+  },
+  {
+    "id": "FHA-IMPL-003",
+    "category": "Implicit Bias",
+    "trigger_words": [
+      "certain types",
+      "right fit",
+      "our kind of people",
+      "compatible residents",
+      "like-minded",
+      "similar backgrounds"
+    ],
+    "severity": "Critical",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "All qualified applicants are welcome. Remove vague exclusionary language."
+  },
+  {
+    "id": "FHA-IMPL-004",
+    "category": "Implicit Bias",
+    "trigger_words": [
+      "traditional family",
+      "family values",
+      "conservative community",
+      "wholesome environment",
+      "moral standards"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "These terms may imply discrimination based on familial status, religion, or sexual orientation."
+  },
+  {
+    "id": "FHA-IMPL-005",
+    "category": "Implicit Bias",
+    "trigger_words": [
+      "clean-cut",
+      "well-groomed",
+      "presentable",
+      "professional appearance",
+      "neat",
+      "tidy tenants"
+    ],
+    "severity": "Warning",
+    "legal_basis": "42 U.S.C. § 3604(c)",
+    "suggestion": "Appearance-based criteria can mask protected class discrimination."
   }
 ]
