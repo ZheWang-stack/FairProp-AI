@@ -27,7 +27,9 @@ setup(
         "numpy",
         "fastapi",
         "uvicorn",
+        "uvicorn",
         "pydantic",
+        "httpx",
     ],
     classifiers=[
         "Programming Language :: Python :: 3",

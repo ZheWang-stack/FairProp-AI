@@ -283,7 +283,9 @@ class FairHousingAuditor:
             jurisdiction_lower = jurisdiction.lower()
             if jurisdiction_lower in jurisdiction_map:
                 jurisdiction_path = jurisdiction_map[jurisdiction_lower]
-                full_path = os.path.join(os.path.dirname(self.rules_path), '..', jurisdiction_path)
+                # Logic fix: jurisdiction_path is relative to root (same as fha_rules.json)
+                # So we should just join dirname of rules_path with jurisdiction_path
+                full_path = os.path.join(os.path.dirname(self.rules_path), jurisdiction_path)
                 
                 if os.path.exists(full_path):
                     try:
@@ -375,18 +377,32 @@ class FairHousingAuditor:
         score = 100
         
         # 1. Keyword/Fuzzy Matching
-        words = re.findall(r'\w+', text.lower())
+        text_lower = text.lower()
+        words = re.findall(r'\w+', text_lower)
+        
         for rule in self.rules:
             if rule["id"] in flagged_rule_ids: continue
                 
             for trigger in rule["trigger_words"]:
-                for word in words:
-                    if self._fuzzy_match(trigger.lower(), word):
-                        item = self._create_flag(rule, trigger, word)
-                        flagged_items.append(item)
-                        flagged_rule_ids.add(rule["id"])
-                        break
-                if rule["id"] in flagged_rule_ids: break
+                trigger_lower = trigger.lower()
+                
+                # Check 1: Direct phrase match (handles "no children")
+                if trigger_lower in text_lower:
+                    item = self._create_flag(rule, trigger, trigger)
+                    flagged_items.append(item)
+                    flagged_rule_ids.add(rule["id"])
+                    break
+                
+                # Check 2: Fuzzy match single words (handles typos like "chldren")
+                # Only perform if trigger is a single word to avoid bad matches
+                if ' ' not in trigger_lower:
+                    for word in words:
+                        if self._fuzzy_match(trigger_lower, word):
+                            item = self._create_flag(rule, trigger, word)
+                            flagged_items.append(item)
+                            flagged_rule_ids.add(rule["id"])
+                            break
+                    if rule["id"] in flagged_rule_ids: break
 
         # 2. Semantic Vector Search
         if self.model_manager.has_ai:
@@ -461,10 +477,13 @@ class FairHousingAuditor:
             penalty = 25 if item["severity"] == "Critical" else 10
             score = max(0, score - penalty)
 
+        # Safety check: Score must be high enough AND no critical violations
+        has_critical = any(item["severity"] == "Critical" for item in flagged_items)
+        
         return {
             "score": score,
             "flagged_items": flagged_items,
-            "is_safe": score >= 70
+            "is_safe": score >= 70 and not has_critical
         }
 
     def _fuzzy_match(self, rule_word: str, text_word: str) -> bool:

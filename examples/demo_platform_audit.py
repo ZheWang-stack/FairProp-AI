@@ -14,8 +14,7 @@ Scenarios covered:
 
 import sys
 import os
-import json
-from typing import List, Dict
+from typing import Dict
 from rich.console import Console
 from rich.table import Table
 from rich.panel import Panel
@@ -33,7 +32,10 @@ console = Console()
 
 def run_platform_audit():
     """Simulate a platform-wide audit process."""
-    console.print(Panel.fit("[bold blue]🛡️  FairProp Platform Audit Simulator[/bold blue]", subtitle="Automated Compliance Check"))
+    console.print(Panel.fit(
+        "[bold blue]🛡️  FairProp Platform Audit Simulator[/bold blue]",
+        subtitle="Automated Compliance Check"
+    ))
 
     # Initialize Auditor with multiple jurisdictions
     # In a real platform, this would be a persistent service or serverless function
@@ -48,7 +50,8 @@ def run_platform_audit():
             "location": "New York, NY",
             "jurisdictions": ["federal", "nyc"],
             "title": "Exclusive Penthouse in Manhattan",
-            "description": "Perfect for young professionals! No Section 8. Must have 40x rent in income. No children under 12 due to balcony safety."
+            "description": "Perfect for young professionals! No Section 8. "
+                           "Must have 40x rent in income. No children under 12."
         },
         {
             "id": "CA-BEACH-042",
@@ -56,7 +59,8 @@ def run_platform_audit():
             "location": "Santa Monica, CA",
             "jurisdictions": ["federal", "california"],
             "title": "Sunny Beachside Studio",
-            "description": "Walking distance to pier. Great for active singles. Christians preferred as it is near the church community center."
+            "description": "Walking distance to pier. Great for active singles. "
+                           "Christians preferred as it is near the church."
         },
         {
             "id": "TX-AUSTIN-101",
@@ -72,7 +76,6 @@ def run_platform_audit():
     for listing in listings:
         audit_listing(auditor, listing)
 
-def audit_listing(auditor: FairHousingAuditor, listing: Dict):
     """Audit a single listing and display results."""
     console.print(f"\n[bold]Scanning Listing:[/bold] {listing['id']} ({listing['platform']})")
     console.print(f"[dim]Location: {listing['location']} | Rules: {', '.join(listing['jurisdictions'])}[/dim]")
