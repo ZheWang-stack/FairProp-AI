@@ -1,7 +1,5 @@
 import logging
-import os
 import uuid
-from typing import Optional, Any
 
 
 # Configure logging
@@ -36,9 +34,11 @@ class ModelManager:
             import transformers
             import chromadb
             import sentence_transformers
+            # Pylint: disable unused import warning by acknowledging check
+            _ = (torch, transformers, chromadb, sentence_transformers)
             self._has_ai = True
         except ImportError as e:
-            logger.warning(f"AI dependencies missing: {e}. Running in rule-only mode.")
+            logger.warning("AI dependencies missing: %s. Running in rule-only mode.", e)
             self._has_ai = False
 
     @property
@@ -102,7 +102,7 @@ class ModelManager:
                 metadatas=metadatas,
                 ids=ids
             )
-            logger.info(f"Indexed {len(documents)} trigger variants into Vector DB.")
+            logger.info("Indexed %d trigger variants into Vector DB.", len(documents))
 
     @property
     def fixer_pipeline(self):
@@ -113,7 +113,7 @@ class ModelManager:
             try:
                 self._fixer_pipeline = pipeline("text2text-generation", model="google/flan-t5-small")
             except Exception as e:
-                logger.error(f"Failed to load fixer model: {e}")
+                logger.error("Failed to load fixer model: %s", e)
                 return None
         return self._fixer_pipeline
 
@@ -126,6 +126,6 @@ class ModelManager:
             try:
                 self._guardrail_pipeline = pipeline("zero-shot-classification", model="facebook/bart-large-mnli")
             except Exception as e:
-                logger.error(f"Failed to load guardrail model: {e}")
+                logger.error("Failed to load guardrail model: %s", e)
                 return None
         return self._guardrail_pipeline

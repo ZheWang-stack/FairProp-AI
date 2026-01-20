@@ -293,9 +293,9 @@ class FairHousingAuditor:
                             all_rules.extend(jurisdiction_rules)
                             logger.info(f"Loaded {len(jurisdiction_rules)} rules for {jurisdiction}")
                     except Exception as e:
-                        logger.warning(f"Failed to load {jurisdiction} rules: {e}")
+                        logger.warning("Failed to load %s rules: %s", jurisdiction, e)
                 else:
-                    logger.warning(f"Jurisdiction rules not found: {full_path}")
+                    logger.warning("Jurisdiction rules not found: %s", full_path)
         
         return all_rules
 
@@ -315,7 +315,7 @@ class FairHousingAuditor:
             result = fixer(prompt, max_length=200, num_return_sequences=1)
             return result[0]['generated_text']
         except Exception as e:
-            logger.error(f"AI Fix failed: {e}")
+            logger.error("AI Fix failed: %s", e)
             return f"(AI Fix failed: {str(e)})"
 
     

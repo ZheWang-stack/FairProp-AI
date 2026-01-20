@@ -1,8 +1,8 @@
 import cv2
 import numpy as np
 import logging
-from typing import Dict, Any, Optional
-from PIL import Image
+from typing import Dict, Any
+# from PIL import Image # Unused import removed
 
 logger = logging.getLogger("fairprop.logo_detector")
 
@@ -31,11 +31,11 @@ class LogoDetector:
             import os
             if os.path.exists(self.template_path):
                 self.template = cv2.imread(self.template_path, cv2.IMREAD_GRAYSCALE)
-                logger.info(f"Loaded logo template from {self.template_path}")
+                logger.info("Loaded logo template from %s", self.template_path)
             else:
-                logger.warning(f"Logo template not found at {self.template_path}. Logo detection disabled.")
+                logger.warning("Logo template not found at %s. Logo detection disabled.", self.template_path)
         except Exception as e:
-            logger.error(f"Failed to load logo template: {e}")
+            logger.error("Failed to load logo template: %s", e)
     
     def detect_logo(self, image_input) -> Dict[str, Any]:
         """
@@ -90,7 +90,7 @@ class LogoDetector:
                 }
                 
         except Exception as e:
-            logger.error(f"Logo detection failed: {e}")
+            logger.error("Logo detection failed: %s", e)
             return {
                 "found": False,
                 "confidence": 0.0,
@@ -160,5 +160,5 @@ class LogoDetector:
                 }
                 
         except Exception as e:
-            logger.error(f"Multi-scale detection failed: {e}")
+            logger.error("Multi-scale detection failed: %s", e)
             return {"found": False, "confidence": 0.0, "message": f"Error: {str(e)}"}
